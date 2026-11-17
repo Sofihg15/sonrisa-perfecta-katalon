@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testCase>
+   <name>TC-90 - Verificación de hash SHA-256 en BD</name>
+   <testCaseGuid>fdefe7b8-2725-42ab-8439-70605fce3580</testCaseGuid>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid></testSuiteGuid>
+</testCase>

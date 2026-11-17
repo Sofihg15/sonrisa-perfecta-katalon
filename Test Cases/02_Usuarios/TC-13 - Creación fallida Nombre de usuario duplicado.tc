@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testCase>
+   <name>TC-13 - Creación fallida Nombre de usuario duplicado</name>
+   <testCaseGuid>f0525d4f-77cb-45d9-a660-9c930ab54180</testCaseGuid>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid></testSuiteGuid>
+</testCase>

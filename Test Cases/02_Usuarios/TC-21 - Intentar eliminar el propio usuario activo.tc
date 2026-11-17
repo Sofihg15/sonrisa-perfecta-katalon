@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testCase>
+   <name>TC-21 - Intentar eliminar el propio usuario activo</name>
+   <testCaseGuid>0af41053-25b1-4442-937b-d2627455609b</testCaseGuid>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid></testSuiteGuid>
+</testCase>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testCase>
+   <name>TC-30 - Registro exitoso Verificar que el campo Edad se calcula auto</name>
+   <testCaseGuid>a9222d54-609b-424b-931f-9f3cf58ae08d</testCaseGuid>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid></testSuiteGuid>
+</testCase>

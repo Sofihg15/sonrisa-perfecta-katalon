@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testCase>
+   <name>TC-55 - Agendamiento fallido Médico con estado No activo</name>
+   <testCaseGuid>4117353e-36d6-4a2b-b7d2-b8da99d31b1b</testCaseGuid>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid></testSuiteGuid>
+</testCase>

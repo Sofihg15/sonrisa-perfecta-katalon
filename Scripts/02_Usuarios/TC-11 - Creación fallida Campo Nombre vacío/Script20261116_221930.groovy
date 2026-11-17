@@ -1,0 +1,39 @@
+/*
+ * Sonrisa Perfecta - Ciclo de Prueba 1
+ * TC-11 - Creación fallida: Campo "Nombre" vacío.
+ * Modulo: CU-USUARIOS (Gestión de Usuarios) | Criticidad: Media | Perfil: Admin
+ * Responsable: Norberto Angell Isais Ramirez
+ *
+ * Pre-condiciones:
+ * 1. Sesión activa con una cuenta con rol 'Administrador' o 'Super Admin'. 2. Permiso concedido
+ * explícitamente a la pantalla 'Usuarios'. 3. Estar posicionado en el listado de 'Gestión de
+ * Usuarios'. 4. Base de datos accesible para registrar la inserción de cuentas.
+ *
+ * Pasos:
+ * Clic Nuevo Usuario Dejar Nombre vacío Clic Guardar
+ *
+ * Resultado esperado:
+ * Error: Campo obligatorio
+ *
+ * Valores de entrada:
+ * Nombre de usuario:OgnAngel Contraseña: 12345 Nombre real: vacio
+ *
+ * COMO COMPLETAR ESTE CASO:
+ * 1. Abre el caso en Katalon Studio y usa Web Recorder (o Spy) para grabar
+ *    los pasos sobre https://sistemapruebas.yaelrdf.fun
+ * 2. Reemplaza el codigo de abajo por los pasos grabados y agrega
+ *    verificaciones (WebUI.verifyElementText / verifyElementPresent)
+ *    segun el resultado esperado de arriba.
+ * 3. Los valores de entrada de la matriz estan solo como referencia en
+ *    este comentario; no se ejecutan como codigo.
+ */
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+// TODO: grabar los pasos con Web Recorder y completar el script
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://sistemapruebas.yaelrdf.fun/login')
+// Ejemplo:
+// WebUI.setText(findTestObject('Object Repository/Login/input_usuario'), 'usuario_prueba')
+// WebUI.verifyElementPresent(findTestObject('Object Repository/VistaGeneral/titulo'), 10)
+WebUI.closeBrowser()
