@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-56 - Agendamiento fallido FechaHora en el pasado</name>
-   <testCaseGuid>311b1a1f-ed2e-4280-8815-d453e2728bf9</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3e105e4-8ffe-4b7b-90ca-2696629ae122</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-72 - Edición exitosa de Notas y Observaciones generales</name>
-   <testCaseGuid>8a76d60c-0ac7-4c1a-b54f-3af1522dccd7</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b5aed8e-0c00-4510-8c3e-de4e3324068b</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

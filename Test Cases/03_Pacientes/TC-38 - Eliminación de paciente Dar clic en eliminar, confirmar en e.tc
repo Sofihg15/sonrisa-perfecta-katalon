@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-38 - Eliminación de paciente Dar clic en eliminar, confirmar en e</name>
-   <testCaseGuid>9a5ec98f-77e8-48df-bde5-df97d8e08996</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ac081b1-90cc-48e3-86f3-c60f52785871</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

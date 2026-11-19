@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-91 - Contraste de colores y navegación intuitiva</name>
-   <testCaseGuid>736be052-5580-4775-971d-c43da9f03df1</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99371ec1-6dbf-4824-814c-18784f022523</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

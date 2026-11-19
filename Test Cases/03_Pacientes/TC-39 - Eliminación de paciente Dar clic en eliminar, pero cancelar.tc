@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-39 - Eliminación de paciente Dar clic en eliminar, pero cancelar</name>
-   <testCaseGuid>2adaee95-58e9-41c4-b81b-15acb7382a2d</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd41422b-9e43-414a-967b-af9f04ae95a6</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

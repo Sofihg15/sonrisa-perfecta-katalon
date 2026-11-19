@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-41 - Registro fallido Campo Nombre vacío</name>
-   <testCaseGuid>1eb62203-7b13-4492-bb37-25f68b68a503</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb8ea88d-c3e1-4c38-9ddd-ddbde55a2b25</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

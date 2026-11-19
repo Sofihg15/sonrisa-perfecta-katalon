@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-76 - Registro de pago fallido Campo Procedimiento no seleccionado</name>
-   <testCaseGuid>6e8338b9-a657-44ec-a3d9-3229b0144cff</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5943e93-e4db-437b-af5b-9f507bee9197</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

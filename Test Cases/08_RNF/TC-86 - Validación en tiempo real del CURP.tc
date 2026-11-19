@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-86 - Validación en tiempo real del CURP</name>
-   <testCaseGuid>fbdb518f-12fe-4f39-a212-1a09a1c73e79</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d14c6c0-f96c-49f1-b579-83eed50e896f</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

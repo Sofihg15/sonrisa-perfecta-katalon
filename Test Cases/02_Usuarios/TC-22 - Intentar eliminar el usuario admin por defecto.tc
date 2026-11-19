@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-22 - Intentar eliminar el usuario admin por defecto</name>
-   <testCaseGuid>651705c5-e7cd-418d-b146-a7277dc1ad91</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4add3347-86a0-4721-a333-e1de3d4d3b79</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

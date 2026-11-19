@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-47 - Eliminación de médico sin citas asociadas</name>
-   <testCaseGuid>0f54c0a7-b791-4216-baac-bd8da5043743</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94f1c9af-8260-4cac-b028-6836b76ce591</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

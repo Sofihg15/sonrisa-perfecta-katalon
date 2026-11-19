@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-83 - Intentar seleccionar y pagar dos procedimientos al mismo tie</name>
-   <testCaseGuid>6d66252d-02a1-4ad4-acda-4adddd4ca046</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b72537c-5410-4043-9a92-fbec0f92d6d9</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

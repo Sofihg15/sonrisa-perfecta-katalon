@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-35 - Búsqueda exitosa en el listado por Nombre</name>
-   <testCaseGuid>7ce4a772-85a1-4a64-9f77-c96403b12f3d</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>389a49a4-4f15-4068-9112-a9d6c73f73e4</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

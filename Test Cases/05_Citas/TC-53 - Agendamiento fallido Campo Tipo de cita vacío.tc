@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-53 - Agendamiento fallido Campo Tipo de cita vacío</name>
-   <testCaseGuid>b9153c92-9693-430c-82ec-fe3b223b5cbd</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32ed9173-7389-4271-bddc-16a12f9df5ac</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

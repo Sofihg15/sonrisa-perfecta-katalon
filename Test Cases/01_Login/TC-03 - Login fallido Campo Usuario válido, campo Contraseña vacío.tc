@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-03 - Login fallido Campo Usuario válido, campo Contraseña vacío</name>
-   <testCaseGuid>4323de96-433d-4dca-ad69-4c1fab57503d</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff00373e-4c72-4e7a-8d98-32318f756712</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

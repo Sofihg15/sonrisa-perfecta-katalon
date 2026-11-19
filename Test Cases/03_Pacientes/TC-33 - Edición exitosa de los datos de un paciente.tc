@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-33 - Edición exitosa de los datos de un paciente</name>
-   <testCaseGuid>da23425a-cc15-441d-9fbf-fc2ef51c21eb</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a5f1c51-bed8-4e21-a046-1ea409c8a655</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

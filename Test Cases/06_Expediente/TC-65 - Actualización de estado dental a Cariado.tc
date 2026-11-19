@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-65 - Actualización de estado dental a Cariado</name>
-   <testCaseGuid>9c3c30a2-c6a0-4628-af93-d8094ccb11a2</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db96a55a-e929-41e1-b67f-a418fc02b577</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-60 - Cambio de estado fallido Cancelar en diálogo</name>
-   <testCaseGuid>753a4b0a-b1f3-4551-b723-726a2d67c7db</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d48bab09-d85d-4a13-be78-599d0c126d92</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

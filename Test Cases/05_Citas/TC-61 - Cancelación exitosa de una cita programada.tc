@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-61 - Cancelación exitosa de una cita programada</name>
-   <testCaseGuid>7f8ccd88-0b30-4e30-998f-9a9f7f0f2b4b</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdbc7391-1834-449a-afa9-02d6e57d8315</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

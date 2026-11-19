@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-18 - Zona de peligro Activar Puede eliminar</name>
-   <testCaseGuid>d6381697-f5d8-4245-b096-5555602bea75</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa5c05f8-38bb-4938-b13d-78d4736dd203</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

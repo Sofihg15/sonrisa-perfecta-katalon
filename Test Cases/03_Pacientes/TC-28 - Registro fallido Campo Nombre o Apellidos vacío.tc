@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-28 - Registro fallido Campo Nombre o Apellidos vacío</name>
-   <testCaseGuid>5090574f-508c-494d-ad6b-a1e94009038e</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2c10c1a-c246-4063-bf3f-d4f3df03ffa4</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

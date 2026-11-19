@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-81 - Intentar pagar un procedimiento en estado En progreso</name>
-   <testCaseGuid>b5e5f5f2-1281-4242-bb2a-d44c8e64a664</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbe9c92d-465a-4d87-a876-6830872916ac</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

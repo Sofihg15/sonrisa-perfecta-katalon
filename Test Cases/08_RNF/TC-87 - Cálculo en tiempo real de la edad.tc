@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-87 - Cálculo en tiempo real de la edad</name>
-   <testCaseGuid>7de51751-ac99-4733-aa71-bd270206ada4</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2d9ef82-629f-42e4-9199-78adc23268cd</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

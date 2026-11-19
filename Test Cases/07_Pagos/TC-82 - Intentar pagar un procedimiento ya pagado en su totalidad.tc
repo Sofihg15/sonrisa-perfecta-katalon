@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-82 - Intentar pagar un procedimiento ya pagado en su totalidad</name>
-   <testCaseGuid>7697a863-d560-4098-af9e-6e537dcb6992</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68993349-9006-4c32-a425-a9afbe4819dd</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

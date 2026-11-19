@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-40 - Registro exitoso con campos obligatorios</name>
-   <testCaseGuid>259eece7-557a-4753-9c79-97c05afe19c8</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dcd691f5-9079-46fb-bb0a-93fa2c424618</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-06 - Login fallido Usuario válido, contraseña incorrecta</name>
-   <testCaseGuid>0719c3c8-23df-4e57-adf6-4d6beab0f0a3</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1213b7e-9087-4b56-845a-f7180a953ad9</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

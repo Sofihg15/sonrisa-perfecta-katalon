@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-26 - Registro fallido CURP con más de 18 caracteres</name>
-   <testCaseGuid>151238f8-5963-4b54-8f69-3d05a68f4394</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38293c77-53e6-418a-959d-c78ec5f6c7db</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

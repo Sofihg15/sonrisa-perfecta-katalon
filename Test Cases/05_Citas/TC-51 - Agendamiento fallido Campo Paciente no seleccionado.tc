@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-51 - Agendamiento fallido Campo Paciente no seleccionado</name>
-   <testCaseGuid>b67a8735-8b5c-455a-a7f0-58e1d4ce7b7e</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6d224b9-b487-4cc6-8b16-76beca79ce8e</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

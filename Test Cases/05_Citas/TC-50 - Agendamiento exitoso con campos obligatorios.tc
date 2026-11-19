@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-50 - Agendamiento exitoso con campos obligatorios</name>
-   <testCaseGuid>791f0a4c-94c7-426a-b313-74b5e4011b3b</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a712c4b6-f116-4ad6-8c6c-657237999c69</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>
