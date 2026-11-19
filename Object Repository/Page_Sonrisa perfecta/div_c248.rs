@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c248</name>
+   <tag></tag>
+   <elementGuidId>8c22480b-eef1-499b-9581-d2969f91d2cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-row ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (position() = 10)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-xs ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.nicegui-row.justify-center:nth-child(5) .nicegui-column.items-center:nth-child(10) .text-xs</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;24&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bb53e3ca-58db-44c1-a6d5-cf2db4f6558c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c248</value>
+      <webElementGuid>6514d6b7-2b97-49f2-b169-2e57af21052e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-white font-bold text-xs</value>
+      <webElementGuid>b9374ffd-799e-4059-8118-eeeee2fc92dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>2424cf71-de30-4c50-b3c8-38c5fabff459</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9551c23a5206b121c9ea9dd1c60205d0</value>
+      <webElementGuid>a9f948d3-b936-4c16-9743-2ca067efebf2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-row ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (position() = 10)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-xs ')]</value>
+      <webElementGuid>e09815e5-10db-43a7-9871-c78544858ec2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-row ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (position() = 10)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-xs ')]</value>
+      <webElementGuid>c28e7fc7-f443-436b-ba7b-84f21f9b3871</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c248' and (text() = '24' or . = '24')]</value>
+      <webElementGuid>afc86ede-2817-426b-ada4-ba97b9305fbe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

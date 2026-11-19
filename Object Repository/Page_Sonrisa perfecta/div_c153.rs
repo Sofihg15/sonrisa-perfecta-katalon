@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c153</name>
+   <tag></tag>
+   <elementGuidId>2cb92c7c-5a3d-4a8b-b223-dcd54db554e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-pre-wrap ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.whitespace-pre-wrap</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Estudiante, horarios flexibles.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7e0ffc12-4518-43e9-b3bf-b22538bdba09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c153</value>
+      <webElementGuid>0e1b9810-9763-4bd2-87bf-18ad74ce65a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-body2 whitespace-pre-wrap w-full</value>
+      <webElementGuid>ff6f2a5d-28d3-456d-aef1-d5290cf1e964</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Estudiante, horarios flexibles.</value>
+      <webElementGuid>7119a684-f38c-40a0-990d-94b9cf5ec009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9fedfb824e274d964222db88d6c66e1c</value>
+      <webElementGuid>c1e4415f-86c6-4b03-bdde-ca3ca3a5b794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-pre-wrap ')]</value>
+      <webElementGuid>330ee201-b1f0-4654-8c01-d5cd3aaf2618</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' whitespace-pre-wrap ')]</value>
+      <webElementGuid>b1d04988-3094-4d39-bde0-1cd2f3e75939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c153' and (text() = 'Estudiante, horarios flexibles.' or . = 'Estudiante, horarios flexibles.')]</value>
+      <webElementGuid>0cc2baf1-b4a6-4940-935d-6be7521459f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

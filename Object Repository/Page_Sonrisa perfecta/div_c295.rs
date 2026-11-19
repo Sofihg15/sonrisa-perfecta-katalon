@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c295</name>
+   <tag></tag>
+   <elementGuidId>1295a082-4ea8-44e8-a526-f3cfe5622ea2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'c295' and (text() = 'Sano' or . = 'Sano')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field__native ') and (@loopback = 'true')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-field__native[loopback=&quot;true&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Sano$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6c0bf785-6c93-4d98-8d75-0e7670e50af5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-field__native row items-center</value>
+      <webElementGuid>c25ef8e2-a547-4cc1-b62b-f572b380d69d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c295</value>
+      <webElementGuid>be0ea583-385f-4f4d-bef0-aefe22d34986</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loopback</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f5f17e40-2191-4759-8eaf-8f8b7049cd88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sano</value>
+      <webElementGuid>258d7f3f-2758-4950-8a39-636a6f765ecc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f10c466aa463d0fdfa1d6e8208d28ab4</value>
+      <webElementGuid>d67e15c7-94ab-4077-a96a-05030ca00bc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field__native ') and (@loopback = 'true')]</value>
+      <webElementGuid>05817791-8240-4305-9d6d-5cf5a44ef96a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field__native ') and (@loopback = 'true')]</value>
+      <webElementGuid>b1021ec4-3988-4515-ade3-d6e2cd540b4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c295' and (text() = 'Sano' or . = 'Sano')]</value>
+      <webElementGuid>3c7c0567-c234-4d40-8cf2-f87ea0487c01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c226</name>
+   <tag></tag>
+   <elementGuidId>cf064151-4a05-4f56-83af-624e15c89896</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-row ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (position() = 5)]/*[(name() = 'div') and (position() = 1)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.nicegui-row.justify-center:nth-child(5) .nicegui-column.items-center:nth-child(5) > div:nth-child(1)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^28$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>99420b70-1ecf-4fd9-8d6a-2be1c79dc4d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c226</value>
+      <webElementGuid>9bace0dd-c885-4b24-ad3e-95b2338b863a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>28</value>
+      <webElementGuid>955f69f9-5aa2-4382-9928-2e48ff7e8a26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-17f3fbf4296e35c79a78758d25611aa0</value>
+      <webElementGuid>cc790bd5-7942-46d7-80d1-cb4b7a575ab4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-row ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (position() = 5)]/*[(name() = 'div') and (position() = 1)]</value>
+      <webElementGuid>b8c05965-3823-455d-830e-83b670ace0ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-row ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (position() = 5)]/*[(name() = 'div') and (position() = 1)]</value>
+      <webElementGuid>3a45215d-bd04-44f3-aaed-365548f50bee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c226' and (text() = '28' or . = '28')]</value>
+      <webElementGuid>083c00e1-3803-4f55-804d-7905337712da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
