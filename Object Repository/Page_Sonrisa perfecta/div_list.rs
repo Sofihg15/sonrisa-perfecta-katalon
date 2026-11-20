@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_list</name>
+   <tag></tag>
+   <elementGuidId>aa1e6a9a-1243-47b4-950e-a3c4494fe6f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item__section--avatar ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-item__section--avatar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Expand \&quot;Detalle de Estados Dentales\&quot;&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e43e22e4-03fb-4d7b-a00b-9e16900da784</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-item__section column q-item__section--side justify-center q-item__section--avatar</value>
+      <webElementGuid>b72e6602-c40b-4492-911c-5e1f2ae74125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>eefe5cce-ad6b-4157-a209-1d94ccfd1b51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b8b0b186f17a78993803790abce1b1d0</value>
+      <webElementGuid>95b77937-7a82-4777-944c-9c1600e3c74b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item__section--avatar ')]</value>
+      <webElementGuid>05c8b7f2-4908-4ef4-a360-b28dba8031d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item__section--avatar ')]</value>
+      <webElementGuid>fdf4a4da-d14d-4864-be34-7fa69c5a6a6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'list' or . = 'list')]</value>
+      <webElementGuid>7777730e-ea07-49a0-9c7c-906fca4e1ff8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c73</name>
+   <tag></tag>
+   <elementGuidId>d8860154-b4be-4334-8046-79e5ee5862a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 4)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-card.nicegui-card.cursor-pointer:nth-child(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Gabriela López Martínez5552345679chevron_right$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>41b6a601-4151-43d0-bc4b-bf0cdf577b87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-card nicegui-card w-full cursor-pointer hover:bg-blue-50</value>
+      <webElementGuid>e4a0eff9-7f77-4e93-94f6-2bfdd3907530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c73</value>
+      <webElementGuid>ad56a4c9-1824-4221-890b-b3cad65ff2a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gabriela López Martínez5552345679chevron_right</value>
+      <webElementGuid>f58cb8e2-9f51-42f0-b21a-c4af3f41433a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-8b649fb59d251c2bbcd887e333582f52</value>
+      <webElementGuid>37ab60a1-b45a-4409-ae1e-704c7a966260</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 4)]</value>
+      <webElementGuid>d8fb7641-0b96-4b60-8f03-356c253f81a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 4)]</value>
+      <webElementGuid>4ee69026-c2cd-4715-9ed4-b6d0d413814d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c73' and (text() = 'Gabriela López Martínez5552345679chevron_right' or . = 'Gabriela López Martínez5552345679chevron_right')]</value>
+      <webElementGuid>bab4d740-86f1-4458-aab4-8bd9f57fcf06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

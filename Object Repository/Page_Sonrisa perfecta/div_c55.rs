@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c55</name>
+   <tag></tag>
+   <elementGuidId>d01bc855-6288-467a-a6ad-85be6ed7dfde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 1)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-card.nicegui-card.cursor-pointer:nth-child(1)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Adriana Rubio Méndez5552345687chevron_right$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a5dfce4b-4ba6-4e41-b34f-0d3cd5d8c1b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-card nicegui-card w-full cursor-pointer hover:bg-blue-50</value>
+      <webElementGuid>64804a5f-f318-42b1-bd5c-f6c9184e5422</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c55</value>
+      <webElementGuid>18cb7a05-883e-44bc-b123-d66bf940374a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Adriana Rubio Méndez5552345687chevron_right</value>
+      <webElementGuid>8ec14500-b852-42f2-bd6f-aafccc1b0feb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-30250030261a6f3bcad4feedb5fbb997</value>
+      <webElementGuid>be66ca4a-ddd6-4482-a30f-66e65934d45e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 1)]</value>
+      <webElementGuid>07418194-8f04-4214-a6a8-7e5dcabd32a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 1)]</value>
+      <webElementGuid>db192c20-a6ba-43fc-8912-d152528cea19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c55' and (text() = 'Adriana Rubio Méndez5552345687chevron_right' or . = 'Adriana Rubio Méndez5552345687chevron_right')]</value>
+      <webElementGuid>be0c7142-fd73-4fec-9354-710b78374ef5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

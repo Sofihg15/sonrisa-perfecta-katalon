@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-72</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Victor Luna</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Victor Luna</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>2cdbc3cb-3746-4322-b533-6f9bf7d3cbba</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>2cdbc3cb-3746-4322-b533-6f9bf7d3cbba</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>61e9639b-024c-4ca6-bf02-2196d2cb51b2</testCaseGuid>
+</TestCaseEntity>
