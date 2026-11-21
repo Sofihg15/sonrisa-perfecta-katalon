@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c133</name>
+   <tag></tag>
+   <elementGuidId>1286b7c9-97d7-498e-badc-1c0e68e03d57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-card</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Editar Citaperson_searchSeleccionar PacientepersonAdriana Rubio MéndezDoctor (op&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d10dffef-0c5a-42e7-945d-f66bcda15534</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-card nicegui-card w-full</value>
+      <webElementGuid>cc5e2bd5-ad31-4358-84bc-c3ae98cdb654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c133</value>
+      <webElementGuid>8006c54a-31b3-4414-970e-813635e6ba3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Editar Citaperson_searchSeleccionar PacientepersonAdriana Rubio MéndezDoctor (opcional en primera vez)Dra. Ana Martínez Sotoarrow_drop_downFecha *2026Sun, Nov 22chevron_leftNovemberchevron_rightchevron_left2026chevron_rightSunMonTueWedThuFriSat12345678910111213141516171819202122232425262728293012345Hora *10:50AMPM121234567891011Tipo de Cita *Revisiónarrow_drop_downProcedimiento/DescripciónDuración (minutos)30arrow_drop_downEstadoProgramadaarrow_drop_downNotas$Costo de la CitaCancelarsaveGuardar</value>
+      <webElementGuid>2ed7a8d1-b9fb-47ea-b45f-d6eee5b9e606</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7b5cde4e6edee7d741efbaca8d8d3581</value>
+      <webElementGuid>283ef9fe-5f28-462f-9960-2297b7d95a22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      <webElementGuid>6fa14849-e7cf-4a40-9d56-788d46bb3c28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      <webElementGuid>e1f836a6-6f31-46d7-be98-1cc8c8b6c895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c133' and (text() = 'Editar Citaperson_searchSeleccionar PacientepersonAdriana Rubio MéndezDoctor (opcional en primera vez)Dra. Ana Martínez Sotoarrow_drop_downFecha *2026Sun, Nov 22chevron_leftNovemberchevron_rightchevron_left2026chevron_rightSunMonTueWedThuFriSat12345678910111213141516171819202122232425262728293012345Hora *10:50AMPM121234567891011Tipo de Cita *Revisiónarrow_drop_downProcedimiento/DescripciónDuración (minutos)30arrow_drop_downEstadoProgramadaarrow_drop_downNotas$Costo de la CitaCancelarsaveGuardar' or . = 'Editar Citaperson_searchSeleccionar PacientepersonAdriana Rubio MéndezDoctor (opcional en primera vez)Dra. Ana Martínez Sotoarrow_drop_downFecha *2026Sun, Nov 22chevron_leftNovemberchevron_rightchevron_left2026chevron_rightSunMonTueWedThuFriSat12345678910111213141516171819202122232425262728293012345Hora *10:50AMPM121234567891011Tipo de Cita *Revisiónarrow_drop_downProcedimiento/DescripciónDuración (minutos)30arrow_drop_downEstadoProgramadaarrow_drop_downNotas$Costo de la CitaCancelarsaveGuardar')]</value>
+      <webElementGuid>b8a1d548-36e7-4e98-ad15-b86583728980</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

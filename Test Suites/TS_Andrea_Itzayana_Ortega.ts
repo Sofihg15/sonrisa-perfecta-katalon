@@ -5,7 +5,9 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
    <numberOfRerun>3</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -108,5 +110,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/05_Citas/TC-63 - Verificar que NO cambia el estado automáticamente por tiempo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7ad2f44-2cd1-4750-b804-fc4d1f6dda07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05_Citas/TC-50 - Agendamiento exitoso con campos obligatorios</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

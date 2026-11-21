@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nombre de usuario</name>
+   <tag></tag>
+   <elementGuidId>15d1ed04-8673-4d56-ac3d-a8de984a14ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@name = 'c10']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'c10' and @id = 'c10' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;c10&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Nombre de usuario&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5c56ae44-5e33-48d1-9e82-b95e4ebb734a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-field__native q-placeholder</value>
+      <webElementGuid>00609505-4356-4577-817d-1a8a5d89b23f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>5498800f-dfe2-47bf-901d-440e2e1f7656</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Nombre de usuario</value>
+      <webElementGuid>caa801a5-b9a0-4873-9075-9beb6422d037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>c10</value>
+      <webElementGuid>9394cd30-85ed-48b0-b10e-ce95df36704e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c10</value>
+      <webElementGuid>2245dca0-8e47-4ccf-9180-af6c82335d7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loopback</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>39b55d12-374a-40a1-9580-469c2715eceb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>list</name>
+      <type>Main</type>
+      <value>undefined-datalist</value>
+      <webElementGuid>837c24ba-7a87-4455-8c90-dcb9d80c0a25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>4f4c50b0-c66b-480d-ba7b-1e682a3580d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0401eb90698f769169a826c39835ddfc</value>
+      <webElementGuid>75afbe3a-55a9-4d17-9b09-b1377c049aa8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = 'c10']</value>
+      <webElementGuid>3d967b12-df59-4630-9c0c-71b413dcf863</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = 'c10']</value>
+      <webElementGuid>31142ff7-6715-4a5b-ac97-0362b0fffa3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'c10' and @id = 'c10' and @type = 'text']</value>
+      <webElementGuid>53bab4f9-0787-4316-ae80-2eb882fb4fc4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_11</name>
+   <tag></tag>
+   <elementGuidId>198eebd8-2129-42d1-a945-ef24ade269ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-time__clock-position ') and (position() = 13)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-time__clock-position:nth-child(13)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^11$/ >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0899f3b5-2e11-468d-b25f-bccefb62cb01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-time__clock-position row flex-center q-time__clock-pos-11</value>
+      <webElementGuid>21cde032-cd15-4f81-a7ef-ac112503db88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>11</value>
+      <webElementGuid>37cdca2c-bf1d-4834-87ac-5028ba1c4067</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-87a39f3fadc995f5f3f01e2a6f976e57</value>
+      <webElementGuid>632d20a9-ab9f-4c8e-b635-36cf7c67c42e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-time__clock-position ') and (position() = 13)]</value>
+      <webElementGuid>bcbc40e7-c7ab-44bd-bacc-cee6dc1bf676</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-time__clock-position ') and (position() = 13)]</value>
+      <webElementGuid>4f3f5079-b011-4bea-ae26-8ce76da53686</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '11' or . = '11')]</value>
+      <webElementGuid>e1b8cdbb-4b0c-4665-b5ef-a24b4e4af660</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
