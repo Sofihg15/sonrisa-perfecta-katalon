@@ -153,4 +153,11 @@
       <testCaseId>Test Cases/05_Citas/TC-55 - Agendamiento fallido Médico con estado No activo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>9172974b-6ca9-4578-912c-0835ecc0e61f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05_Citas/TC-56 - Agendamiento fallido FechaHora en el pasado</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
