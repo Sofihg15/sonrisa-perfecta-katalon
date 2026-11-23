@@ -6,16 +6,16 @@
    <elementGuidId>15d1ed04-8673-4d56-ac3d-a8de984a14ef</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>[name=&quot;c10&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@name = 'c10']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@name = 'c10' and @id = 'c10' and @type = 'text']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>[name=&quot;c10&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>96f51706-4974-4865-8f12-c467f4749c61</webElementGuid>
+      <webElementGuid>38c13e51-5dd1-4808-af3b-96c7ebb85993</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-field__native q-placeholder</value>
-      <webElementGuid>651d7062-019b-472f-8711-38fff295e580</webElementGuid>
+      <webElementGuid>c36ea7f0-d25d-4fd2-9e2c-9cf9cd9044ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7bdc3d07-6b24-40ef-94b6-fdd096a08008</webElementGuid>
+      <webElementGuid>1298689f-b5d6-41a7-9688-c6d1f2d42d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Nombre de usuario</value>
-      <webElementGuid>763fa766-25a3-4196-9aba-6546aea7b616</webElementGuid>
+      <webElementGuid>884b2490-8e32-43ff-b50d-55d482fe66e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>name</name>
       <type>Main</type>
       <value>c10</value>
-      <webElementGuid>13b69747-4865-4289-b19b-52a2f0cc9e37</webElementGuid>
+      <webElementGuid>57b92e0a-41b3-48ec-913b-0a6714fad871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>id</name>
       <type>Main</type>
       <value>c10</value>
-      <webElementGuid>2c4b27e9-7721-4388-95c5-326ba7e262e6</webElementGuid>
+      <webElementGuid>c776c677-83e9-4cf9-81e8-b5e9ee7a7a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>loopback</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b1a0855a-2621-4fb3-bc73-597bd85e0432</webElementGuid>
+      <webElementGuid>0da22fd8-6857-4c50-8f16-8b3bcdda19d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>list</name>
       <type>Main</type>
       <value>undefined-datalist</value>
-      <webElementGuid>ee313a8b-2dca-49a3-93b4-5155a0fd8726</webElementGuid>
+      <webElementGuid>3afc0b22-6a40-47be-b7c9-c94966cec305</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b708892e-a07d-4048-8bc9-1a58801468b1</webElementGuid>
+      <webElementGuid>1138b1f5-f5d0-4c37-b7d5-b8734d54a4fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-0401eb90698f769169a826c39835ddfc</value>
-      <webElementGuid>ad766334-da35-4ae4-b5de-bc0c2cdc7b56</webElementGuid>
+      <webElementGuid>f915ddd7-d3f3-41f1-a359-5d02eb104f60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@name = 'c10']</value>
-      <webElementGuid>a704c53b-bb0b-4d22-94e2-5d478019f862</webElementGuid>
+      <webElementGuid>4aba7691-aafd-422d-bd0b-cbb26f9f0482</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@name = 'c10']</value>
-      <webElementGuid>6bfe4145-48d7-4f4c-a27a-e97e127b9181</webElementGuid>
+      <webElementGuid>4badae82-4187-4e19-8485-19cea6e33b56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'c10' and @id = 'c10' and @type = 'text']</value>
-      <webElementGuid>2283f320-c128-4451-9b66-9a42c106e36e</webElementGuid>
+      <webElementGuid>997e7f5f-9682-476e-9dc6-ed7236338465</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

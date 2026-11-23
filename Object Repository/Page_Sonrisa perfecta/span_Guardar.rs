@@ -6,16 +6,16 @@
    <elementGuidId>379033ac-221b-4934-8331-3f9caddb8b53</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.q-btn.q-btn-item.q-btn--actionable.q-focusable.q-hoverable.q-btn--rectangle.q-btn--flat.text-primary:nth-child(2) .block</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Guardar' or . = 'Guardar')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.q-btn.q-btn-item.q-btn--actionable.q-focusable.q-hoverable.q-btn--rectangle.q-btn--flat.text-primary:nth-child(2) .block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5d6954dd-505f-4f27-b7bd-80e18815f687</webElementGuid>
+      <webElementGuid>bcb7a90d-0bcb-42f0-8f1b-2757b446cfe2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>5ec2008f-cff1-4d36-99f5-40b05643b480</webElementGuid>
+      <webElementGuid>64c8719b-9770-4220-9d3b-1d7a5f1dc6b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Guardar</value>
-      <webElementGuid>3f984335-7299-4d2a-bc2f-ebdccb4da003</webElementGuid>
+      <webElementGuid>1de245cd-5b2d-4f69-a8ba-4eeedb651327</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-755395464435c8008c5b2e25b45aa593</value>
-      <webElementGuid>8671225a-88ea-43ab-a68b-ed0dd6a3aaa3</webElementGuid>
+      <webElementGuid>441ec9a4-2925-4701-9e2d-7d1abad22bcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>52fc29e3-af90-420e-bd48-6361065f800b</webElementGuid>
+      <webElementGuid>d7831214-65e4-4e23-bf95-5768125c0ac3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>3a42a39c-4471-483e-bbc7-09bf80865f58</webElementGuid>
+      <webElementGuid>fe9c33ca-8969-439f-8673-d974ecf46f6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Guardar' or . = 'Guardar')]</value>
-      <webElementGuid>f888eaa2-4aaf-4694-b10a-918fde779f55</webElementGuid>
+      <webElementGuid>03c0bc58-fae7-4ba6-a2df-4c1939918728</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

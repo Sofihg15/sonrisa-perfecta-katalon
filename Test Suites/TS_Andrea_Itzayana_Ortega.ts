@@ -132,4 +132,11 @@
       <testCaseId>Test Cases/05_Citas/TC-51 - Agendamiento fallido Campo Paciente no seleccionado</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a189547c-be27-4816-91b1-f3c6e9b068ac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05_Citas/TC-52 - Agendamiento fallido Campo FechaHora vacío</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

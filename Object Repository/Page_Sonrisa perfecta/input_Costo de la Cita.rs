@@ -6,16 +6,16 @@
    <elementGuidId>d5719a24-9c28-4267-b79b-83a51a345a68</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>[name=&quot;c86&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@name = 'c154']</value>
+         <value>//*[@name = 'c86']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'c154' and @id = 'c154' and @type = 'number']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>[name=&quot;c154&quot;]</value>
+         <value>//*[@name = 'c86' and @id = 'c86' and @type = 'number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>36fb293c-ce11-4fdd-982d-57a78e69dd7e</webElementGuid>
+      <webElementGuid>e5e47c07-868f-41e9-8fa4-24ebaf6b8590</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-field__native q-placeholder</value>
-      <webElementGuid>47046976-7307-4fcb-b794-13bbc85cf374</webElementGuid>
+      <webElementGuid>9778392c-07fb-4b47-8f25-82c1914cdf49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>43e90fba-d6b9-4760-9d9f-df44769f11cf</webElementGuid>
+      <webElementGuid>891f9c6d-7241-4950-a7f0-8bc9162487f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,23 +57,23 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Costo de la Cita</value>
-      <webElementGuid>6d83c908-20aa-409c-8ca1-77e6da5463f9</webElementGuid>
+      <webElementGuid>b4087d1f-2b4f-4538-a1b4-b8a552287998</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>c154</value>
-      <webElementGuid>2daf7356-8da0-45f1-93e7-72b6391f6d4f</webElementGuid>
+      <value>c86</value>
+      <webElementGuid>fe784049-da5a-410d-ace1-1b17461f0443</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>c154</value>
-      <webElementGuid>ad56dcfc-480a-4b03-8063-0928640bf679</webElementGuid>
+      <value>c86</value>
+      <webElementGuid>5ba8843c-4d9a-4eb2-ac26-7fa7e77039fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>loopback</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>857f19c9-ad18-4f60-bf03-cc92f6291415</webElementGuid>
+      <webElementGuid>049a7fcb-53a8-4ae0-a6b5-b3b8e1a3184b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>min</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>af3b399c-150a-4348-8441-c7c23082ebc1</webElementGuid>
+      <webElementGuid>c759c52b-8850-49af-8114-9bc967213b4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -97,32 +97,48 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>e4613b33-6f3f-459b-9b52-85a98f7d6438</webElementGuid>
+      <webElementGuid>f822cb18-79a8-4e01-83ee-e3d26dc35667</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>50.02</value>
-      <webElementGuid>2ceff8cf-ebda-43e9-8e73-9f94d5608c92</webElementGuid>
+      <value>0.00</value>
+      <webElementGuid>75e4da22-6772-42ec-8f2a-200dd7b3ce75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-e319dd01ab1b8184da53408c7eb7741f</value>
-      <webElementGuid>a8b2deaf-2675-488b-8a3d-8bc961f4feaa</webElementGuid>
+      <value>md5.v1-cccc8e71747890711fc6173ca68ef2f0</value>
+      <webElementGuid>86ecad82-086a-4376-a01e-1529c41dd3c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@name = 'c154']</value>
-      <webElementGuid>4ff9df43-a4cd-4253-9338-3f310cd0ed8e</webElementGuid>
+      <value>//*[@name = 'c86']</value>
+      <webElementGuid>18ae1272-313d-4486-8932-ad36b902b632</webElementGuid>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = 'c86']</value>
+      <webElementGuid>2f639081-a5a8-4465-a768-68d4e1387f6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'c86' and @id = 'c86' and @type = 'number']</value>
+      <webElementGuid>f089e85a-565d-400a-875c-c1fe3718817a</webElementGuid>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
