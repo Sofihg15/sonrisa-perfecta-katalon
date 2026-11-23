@@ -146,4 +146,11 @@
       <testCaseId>Test Cases/05_Citas/TC-54 - Agendamiento exitoso sin médico asignado (primera vez)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d1995fa5-6e7f-414c-9339-afdc18436f78</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05_Citas/TC-55 - Agendamiento fallido Médico con estado No activo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
