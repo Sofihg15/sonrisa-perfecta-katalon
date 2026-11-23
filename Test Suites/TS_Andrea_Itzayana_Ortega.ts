@@ -119,13 +119,6 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9581ec54-e700-47fc-bcfa-cdade547a5d5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-51 - Agendamiento fallido Campo Paciente no seleccionado</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f30bc406-cda5-4158-9a1e-66f501209bfc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -137,6 +130,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/05_Citas/TC-52 - Agendamiento fallido Campo FechaHora vacío</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4a1a7f3-558b-46cb-b106-a58ef7f29cf1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05_Citas/TC-53 - Agendamiento fallido Campo Tipo de cita vacío</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
