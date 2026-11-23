@@ -139,4 +139,11 @@
       <testCaseId>Test Cases/05_Citas/TC-53 - Agendamiento fallido Campo Tipo de cita vacío</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6e6c59bd-d624-4c80-87bf-10e50200ccfe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05_Citas/TC-54 - Agendamiento exitoso sin médico asignado (primera vez)</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
