@@ -160,4 +160,11 @@
       <testCaseId>Test Cases/05_Citas/TC-56 - Agendamiento fallido FechaHora en el pasado</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3692784d-fd67-43b8-beda-014949abe445</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/05_Citas/TC-57 - Edición exitosa de una cita Programada</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
