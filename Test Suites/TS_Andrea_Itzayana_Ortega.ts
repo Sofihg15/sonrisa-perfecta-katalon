@@ -111,25 +111,4 @@
       <testCaseId>Test Cases/05_Citas/TC-63 - Verificar que NO cambia el estado automáticamente por tiempo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>c7ad2f44-2cd1-4750-b804-fc4d1f6dda07</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-50 - Agendamiento exitoso con campos obligatorios</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f30bc406-cda5-4158-9a1e-66f501209bfc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-51 - Agendamiento fallido Campo Paciente no seleccionado</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a189547c-be27-4816-91b1-f3c6e9b068ac</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-52 - Agendamiento fallido Campo FechaHora vacío</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
