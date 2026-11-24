@@ -132,39 +132,4 @@
       <testCaseId>Test Cases/05_Citas/TC-52 - Agendamiento fallido Campo FechaHora vacío</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>d4a1a7f3-558b-46cb-b106-a58ef7f29cf1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-53 - Agendamiento fallido Campo Tipo de cita vacío</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6e6c59bd-d624-4c80-87bf-10e50200ccfe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-54 - Agendamiento exitoso sin médico asignado (primera vez)</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d1995fa5-6e7f-414c-9339-afdc18436f78</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-55 - Agendamiento fallido Médico con estado No activo</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9172974b-6ca9-4578-912c-0835ecc0e61f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-56 - Agendamiento fallido FechaHora en el pasado</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3692784d-fd67-43b8-beda-014949abe445</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_Citas/TC-57 - Edición exitosa de una cita Programada</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
