@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_f_2b11198f-a814-4fab-ac62-2de91b5a97ac_0</name>
+   <tag></tag>
+   <elementGuidId>959d43e2-63b7-4f50-b09f-8a21ea3307a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Endodoncia - Pendiente: $1,500.00&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8472d641-5855-4ea6-bd01-6c5470907f6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-manual-focusable</value>
+      <webElementGuid>1067ed02-9553-4242-975b-a0e28b9f8a74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>05b0e047-2e25-40ed-bec3-c9ab93377fdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>dbbe4c06-ab5a-46e6-8eda-27fc21aabb6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>8d064f1a-366d-4c6a-b974-d6130af137e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>f_2b11198f-a814-4fab-ac62-2de91b5a97ac_0</value>
+      <webElementGuid>bdda611f-f650-4fb3-ad76-ecfb7a506d3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Endodoncia - Pendiente: $1,500.00</value>
+      <webElementGuid>a5c44f21-ab79-47f1-b6cf-e69ae5e5ab22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-72be7cde9116dad68e1ddf14552c4d3a</value>
+      <webElementGuid>41e8e52a-8898-43dd-a274-f2d9319fd536</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ')]</value>
+      <webElementGuid>afad1581-3908-4d25-86cf-7377583f3780</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ')]</value>
+      <webElementGuid>0cb54110-4953-4ca8-b181-88006839f90d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'f_2b11198f-a814-4fab-ac62-2de91b5a97ac_0' and (text() = 'Endodoncia - Pendiente: $1,500.00' or . = 'Endodoncia - Pendiente: $1,500.00')]</value>
+      <webElementGuid>3fa0b3c1-d21a-4818-9496-5ba5c87c9847</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

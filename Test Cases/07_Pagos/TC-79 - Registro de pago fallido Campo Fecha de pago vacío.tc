@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>1. Sesión de Recepcionista iniciada (Alisson).
+2. Paciente seleccionado: Adriana Rubio Méndez.
+3. RN02: tiene un procedimiento en 'Completado'.
+4. Saldo pendiente > $0: Total $3,000, Pagado $1,500, Pendiente $1,500.
+5. Fecha vacía, para probar que el pago falle y no se cree.</description>
    <name>TC-79 - Registro de pago fallido Campo Fecha de pago vacío</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Hernandez Gonzalez Alma Sofía</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>983f75de-0239-43ce-94ad-b9530b49ec48</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>0706a4d3-22cf-4e73-9acc-27639d6d4b30</testCaseGuid>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid></testSuiteGuid>
 </TestCaseEntity>

@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>1. Sesión de Recepcionista iniciada (Alisson).
+2. Paciente seleccionado: - Eduardo García Pérez  
+3. Procedimiento en 'Completado'.
+4. Saldo pendiente > $0.
+</description>
    <name>TC-82 - Intentar pagar un procedimiento ya pagado en su totalidad</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Hernandez Gonzalez Alma Sofía</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>983f75de-0239-43ce-94ad-b9530b49ec48</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>68993349-9006-4c32-a425-a9afbe4819dd</testCaseGuid>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid></testSuiteGuid>
 </TestCaseEntity>

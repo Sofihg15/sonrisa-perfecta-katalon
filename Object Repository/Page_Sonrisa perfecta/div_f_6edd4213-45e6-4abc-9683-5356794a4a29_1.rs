@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_f_6edd4213-45e6-4abc-9683-5356794a4a29_1</name>
+   <tag></tag>
+   <elementGuidId>1c761daa-03f9-4a9b-99bb-dd562efc83e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 2)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-item:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Limpieza - Pendiente: $800.00&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fd0c9ac6-bc5e-4124-818f-47fa5ed18978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-manual-focusable</value>
+      <webElementGuid>4dd749f9-abd4-45fd-81bc-072f5c20db56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>a8585fd3-6828-4e48-a46f-c5a27a316a12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>e5846741-1bee-4212-a787-1ddcc177d243</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7cfc6d00-5100-4e50-83f5-9fe841538e03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>f_6edd4213-45e6-4abc-9683-5356794a4a29_1</value>
+      <webElementGuid>efc90361-868f-4b44-b1f2-68b24bb93e15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Limpieza - Pendiente: $800.00</value>
+      <webElementGuid>ff7a382f-8b30-4601-a829-04cff032fd0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d1fca776dcb211295fd8de59878adb66</value>
+      <webElementGuid>be40c4f2-ce17-43a8-8fe5-ccd707bc1252</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 2)]</value>
+      <webElementGuid>9e3289a4-a0ea-41ff-a71b-e3378c3fcfd9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 2)]</value>
+      <webElementGuid>0e7be950-5425-4ee1-a522-3f7ff1991187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'f_6edd4213-45e6-4abc-9683-5356794a4a29_1' and (text() = 'Limpieza - Pendiente: $800.00' or . = 'Limpieza - Pendiente: $800.00')]</value>
+      <webElementGuid>906ecde1-8a29-4335-a9b2-eb5c6fe0a1c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

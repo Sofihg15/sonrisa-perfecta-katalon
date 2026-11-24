@@ -1,4 +1,4 @@
-/*
+ /*
  * Sonrisa Perfecta - Ciclo de Prueba 1
  * TC-19 - Zona de peligro: Desactivar "Puede eliminar".
  * Modulo: CU-USUARIOS (Gestión de Usuarios) | Criticidad: Alta | Perfil: Admin
@@ -26,14 +26,16 @@
  *    segun el resultado esperado de arriba.
  * 3. Los valores de entrada de la matriz estan solo como referencia en
  *    este comentario; no se ejecutan como codigo.
- */
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+ */ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 // TODO: grabar los pasos con Web Recorder y completar el script
 WebUI.openBrowser('')
+
 WebUI.navigateToUrl('https://sistemapruebas.yaelrdf.fun/login')
+
 // Ejemplo:
 // WebUI.setText(findTestObject('Object Repository/Login/input_usuario'), 'usuario_prueba')
 // WebUI.verifyElementPresent(findTestObject('Object Repository/VistaGeneral/titulo'), 10)
 WebUI.closeBrowser()
+

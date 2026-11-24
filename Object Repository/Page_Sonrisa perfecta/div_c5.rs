@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c5</name>
+   <tag></tag>
+   <elementGuidId>ed757a6d-f032-422a-8651-f7b28f331a0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'c5' and (text() = 'Sonrisa perfectapersonAlisson ReyesRecepcionistalogoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientespaymentsAdeudosv1.1.0' or . = 'Sonrisa perfectapersonAlisson ReyesRecepcionistalogoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientespaymentsAdeudosv1.1.0')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-drawer ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.nicegui-drawer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Sonrisa perfectapersonAlisson ReyesRecepcionistalogoutdashboardVista generaleven&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ede5b3c9-ff58-4bb9-8330-145aa51c26b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c5</value>
+      <webElementGuid>f3ff4f05-20a6-44b1-8c15-119376e48a69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-drawer__content fit scroll nicegui-drawer bg-[#9daaf2] p-0 text-white overflow-y-auto overflow-x-hidden</value>
+      <webElementGuid>badc0f25-18cd-4eca-85da-1717834979d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loopback</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>16c4a265-22e6-464f-8631-eaf13f804532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sonrisa perfectapersonAlisson ReyesRecepcionistalogoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientespaymentsAdeudosv1.1.0</value>
+      <webElementGuid>9e82e003-0e6f-44df-a84d-fe2fe4e2690e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bffa606b8a731ab93b53d3ba84c52b10</value>
+      <webElementGuid>4cc5a091-63b5-4c40-bdc7-ca7833c4ec55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-drawer ')]</value>
+      <webElementGuid>04d58d67-9d1e-41a0-8aa0-e5688a373c17</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-drawer ')]</value>
+      <webElementGuid>499a093b-8f8f-42be-95c4-0ae44bc2a564</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c5' and (text() = 'Sonrisa perfectapersonAlisson ReyesRecepcionistalogoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientespaymentsAdeudosv1.1.0' or . = 'Sonrisa perfectapersonAlisson ReyesRecepcionistalogoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientespaymentsAdeudosv1.1.0')]</value>
+      <webElementGuid>02d8a77e-91fb-4548-9aaa-0ae1bd2390ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

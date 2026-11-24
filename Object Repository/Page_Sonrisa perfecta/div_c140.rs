@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c140</name>
+   <tag></tag>
+   <elementGuidId>51f97d7d-e0a5-405c-a609-d04e41adb958</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'c140']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--with-bottom ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field__native ') and (@loopback = 'true')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-field--outlined.q-field--labeled.q-field.q-field--with-bottom:nth-child(3) .q-field__native[loopback=&quot;true&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#c140</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>edfcd469-92fd-42d5-976a-d16440c70a1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-field__native row items-center</value>
+      <webElementGuid>ea672d55-7382-4442-bb64-0114bd50bbb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c140</value>
+      <webElementGuid>fa7bdada-70c1-496b-af4d-18a07e7c4c30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loopback</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>760f8297-56b3-41ba-8a83-0b2f2aecf79f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-fcbeb1e35ab5848f02cff570d7ff4f7d</value>
+      <webElementGuid>40678c04-72bf-4a14-b5d6-470db4844fd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--with-bottom ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field__native ') and (@loopback = 'true')]</value>
+      <webElementGuid>02f910eb-21e0-49d7-9982-334bc1fec971</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--with-bottom ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field__native ') and (@loopback = 'true')]</value>
+      <webElementGuid>1f79c5e1-d722-4fa6-90e6-e2a8664575b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c140']</value>
+      <webElementGuid>477edd21-99d5-4fc6-af76-3c5524a4cd84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

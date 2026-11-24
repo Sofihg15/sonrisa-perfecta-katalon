@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-01 - Login exitoso con usuario y contrasena correctos</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc86f841-526f-4518-a738-baef3f860b9a</testCaseGuid>
+</TestCaseEntity>
