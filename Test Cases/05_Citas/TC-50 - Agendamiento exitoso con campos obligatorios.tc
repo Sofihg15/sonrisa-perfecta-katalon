@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-50 - Agendamiento exitoso con campos obligatorios</name>
-   <testCaseGuid>791f0a4c-94c7-426a-b313-74b5e4011b3b</testCaseGuid>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid></testSuiteGuid>
-</testCase>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Itzayana Ortega Prieto</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>036f2e4a-76a5-40b4-a32f-8d0c4c63943f</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a712c4b6-f116-4ad6-8c6c-657237999c69</testCaseGuid>
+</TestCaseEntity>

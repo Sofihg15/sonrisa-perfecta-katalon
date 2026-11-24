@@ -1,40 +1,40 @@
-/*
- * Sonrisa Perfecta - Ciclo de Prueba 1
- * TC-56 - Agendamiento fallido: Fecha/Hora en el pasado.
- * Modulo: CU-CITAS (Gestión de Citas) | Criticidad: Alta | Perfil: Recepcionista
- * Responsable: Andrea Itzayana Ortega Prieto
- *
- * Pre-condiciones:
- * 1. Sesión activa en el sistema (Recepcionista o Médico). 2. El catálogo de BD debe tener pacientes y
- * médicos registrados previamente. 3. El paciente objetivo debe estar buscado y seleccionado en la
- * barra superior para habilitar el botón 'Nueva Cita'. 4. La pantalla de Gestión de Citas debe estar
- * visible.
- *
- * Pasos:
- * Clic Nueva Cita Ingresar fecha de ayer Clic Guardar
- *
- * Resultado esperado:
- * Error: Fecha inválida
- *
- * Valores de entrada:
- * Fecha: Ayer
- *
- * COMO COMPLETAR ESTE CASO:
- * 1. Abre el caso en Katalon Studio y usa Web Recorder (o Spy) para grabar
- *    los pasos sobre https://sistemapruebas.yaelrdf.fun
- * 2. Reemplaza el codigo de abajo por los pasos grabados y agrega
- *    verificaciones (WebUI.verifyElementText / verifyElementPresent)
- *    segun el resultado esperado de arriba.
- * 3. Los valores de entrada de la matriz estan solo como referencia en
- *    este comentario; no se ejecutan como codigo.
- */
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.Keys as Keys
 
-// TODO: grabar los pasos con Web Recorder y completar el script
 WebUI.openBrowser('')
-WebUI.navigateToUrl('https://sistemapruebas.yaelrdf.fun/login')
-// Ejemplo:
-// WebUI.setText(findTestObject('Object Repository/Login/input_usuario'), 'usuario_prueba')
-// WebUI.verifyElementPresent(findTestObject('Object Repository/VistaGeneral/titulo'), 10)
-WebUI.closeBrowser()
+WebUI.maximizeWindow()
+
+// Asegúrate de usar la URL exacta que te abrió el sistema en los casos anteriores
+WebUI.navigateToUrl('https://sistemapruebas.yaelrdf.fun')
+
+WebUI.waitForElementVisible(findTestObject('Page_Sonrisa perfecta/input_Nombre de usuario'), 15)
+WebUI.setText(findTestObject('Page_Sonrisa perfecta/input_Nombre de usuario'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Page_Sonrisa perfecta/input_Contraseavisibility_off'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.sendKeys(findTestObject('Page_Sonrisa perfecta/input_Contraseavisibility_off'), Keys.chord(Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.waitForElementClickable(findTestObject('Page_Sonrisa perfecta/div_c24'), 15)
+WebUI.click(findTestObject('Page_Sonrisa perfecta/div_c24'))
+
+WebUI.waitForElementClickable(findTestObject('Page_Sonrisa perfecta/span_addNueva Cita'), 15)
+WebUI.click(findTestObject('Page_Sonrisa perfecta/span_addNueva Cita'))
+
+WebUI.waitForElementClickable(findTestObject('Page_Sonrisa perfecta/span_Seleccionar Paciente'), 15)
+WebUI.click(findTestObject('Page_Sonrisa perfecta/span_Seleccionar Paciente'))
+
+WebUI.waitForElementClickable(findTestObject('Page_Sonrisa perfecta/div_c96'), 15)
+WebUI.click(findTestObject('Page_Sonrisa perfecta/div_c96'))
+
+// Si el formulario exige ingresar fecha u hora antes de intentar guardar para disparar el fallo,
+// agrega aquí abajo los pasos correspondientes de tu Object Repository.
+
+WebUI.delay(1)
+
+WebUI.scrollToElement(findTestObject('Page_Sonrisa perfecta/span_Guardar'), 5)
+WebUI.waitForElementClickable(findTestObject('Page_Sonrisa perfecta/span_Guardar'), 15)
+WebUI.enhancedClick(findTestObject('Page_Sonrisa perfecta/span_Guardar'))
+
+WebUI.delay(2)

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-67 - Agregar nota a pieza dental y guardar</name>
-   <testCaseGuid>fe8f6c97-7bdd-4bb5-a557-1c23b87d9431</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7241c14-dab5-42a9-abf3-bc2fdafcd562</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

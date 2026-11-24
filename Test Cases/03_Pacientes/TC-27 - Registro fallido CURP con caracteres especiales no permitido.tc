@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-27 - Registro fallido CURP con caracteres especiales no permitido</name>
-   <testCaseGuid>34a70e05-5e8c-4beb-81f6-5849f3117bc3</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>859284a1-3a71-4028-8517-c9cc1ad61953</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

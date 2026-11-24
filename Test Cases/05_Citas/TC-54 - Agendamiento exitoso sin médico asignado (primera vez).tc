@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-54 - Agendamiento exitoso sin médico asignado (primera vez)</name>
-   <testCaseGuid>7462bb62-7de5-4463-8db7-7c5c953a2c26</testCaseGuid>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid></testSuiteGuid>
-</testCase>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Itzayana Ortega Prieto</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>036f2e4a-76a5-40b4-a32f-8d0c4c63943f</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42d9f8d2-2b39-403a-89f7-220579433c5f</testCaseGuid>
+</TestCaseEntity>

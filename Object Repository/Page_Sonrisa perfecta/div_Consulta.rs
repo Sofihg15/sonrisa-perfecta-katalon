@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Consulta</name>
+   <tag></tag>
+   <elementGuidId>bd82d50f-19e6-4b06-8e46-159851b1766c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item__label ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-item:nth-child(1) .q-item__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Consulta&quot;i] >> div >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>585aca1d-bc6a-4084-ae08-505fbf016fdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-item__label</value>
+      <webElementGuid>1545311f-75a5-4611-adc5-74f7c30b7902</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Consulta</value>
+      <webElementGuid>0c12448c-187e-4194-a297-dbbb0e63743b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f61d44a70b97d2dc506d34f0fd553b7b</value>
+      <webElementGuid>bfd84437-68aa-4328-8245-b00012cd2133</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item__label ')]</value>
+      <webElementGuid>994f853d-fa3c-4857-936d-ddf04f05c06d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item__label ')]</value>
+      <webElementGuid>c2d8a53c-fb0b-4987-b1d8-c68682dcf824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Consulta' or . = 'Consulta')]</value>
+      <webElementGuid>c6190606-9039-4783-b11e-6a3e1cd436f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

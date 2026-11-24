@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-62 - Cancelación fallida Cancelar en el diálogo de confirmación</name>
-   <testCaseGuid>614c9b6c-b41b-45da-8584-df0fe6c09a71</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a064b44a-256a-4efa-afa4-780f5c86529d</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

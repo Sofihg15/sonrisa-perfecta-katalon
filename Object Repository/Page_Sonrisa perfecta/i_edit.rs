@@ -3,22 +3,26 @@
    <description></description>
    <name>i_edit</name>
    <tag></tag>
-   <elementGuidId>3cfc4bb7-9b5a-4fec-9ebd-0a5f71a135ad</elementGuidId>
+   <elementGuidId>48889118-ed9a-47a3-9181-6ecf3e7ac13b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and contains(concat(' ', normalize-space(@class), ' '), ' material-icons ') and contains(concat(' ', normalize-space(@class), ' '), ' on-left ')]</value>
+         <value>//*[(name() = 'tr') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' non-selectable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--round ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--dense ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and (@role = 'img')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'edit' or . = 'edit')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.q-btn.q-btn-item.q-btn--actionable.q-focusable.q-hoverable.q-btn--flat.q-btn--rectangle.text-primary .notranslate.material-icons.on-left</value>
+         <value>tr:nth-child(1) .q-btn.q-btn-item.non-selectable.q-btn--actionable.q-focusable.q-hoverable.q-btn--round.q-btn--dense:nth-child(1) .notranslate[role=&quot;img&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Editar&quot;i]</value>
+         <value>button >> internal:has-text=&quot;edit&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>c20958dc-52ef-4488-bb25-43f456021ed4</webElementGuid>
+      <webElementGuid>01e3a6a1-ee7d-4d5f-9fb6-2bd7bd36e4c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>q-icon on-left notranslate material-icons</value>
-      <webElementGuid>4126d4f9-01cb-4102-8c99-5813cd3f63ab</webElementGuid>
+      <value>q-icon notranslate material-icons</value>
+      <webElementGuid>827cc37f-e774-48cb-bd15-c6f1a8830161</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a265cfe7-78a4-48da-8a2c-18554d224d00</webElementGuid>
+      <webElementGuid>864c2921-6120-4987-9986-08bf00d9168f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>1aa8240d-1e21-46e2-912f-604b034c384a</webElementGuid>
+      <webElementGuid>b829b3ed-cda1-4ac7-9d4d-7ffd9eb1c262</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,31 +65,31 @@
       <name>text</name>
       <type>Main</type>
       <value>edit</value>
-      <webElementGuid>87cc8212-67cc-4dde-a124-875a7115e1e8</webElementGuid>
+      <webElementGuid>c6fee6c1-a425-4faa-a568-7649443b1da8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-0e26e4ee86efe2b898cb10199c4cbf3d</value>
-      <webElementGuid>b0f7faae-99ee-4cb5-8017-7b3cf12e37b3</webElementGuid>
+      <value>md5.v1-d91315b4e00eed45c907406612b2ae8d</value>
+      <webElementGuid>37e65c83-066a-47d8-b082-34afbe500089</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and contains(concat(' ', normalize-space(@class), ' '), ' material-icons ') and contains(concat(' ', normalize-space(@class), ' '), ' on-left ')]</value>
-      <webElementGuid>631b32d3-566b-4924-89c2-5e74fde7e9c0</webElementGuid>
+      <value>//*[(name() = 'tr') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' non-selectable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--round ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--dense ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and (@role = 'img')]</value>
+      <webElementGuid>9faf4b84-2bce-4f8b-b839-bc9e0abb92d3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and contains(concat(' ', normalize-space(@class), ' '), ' material-icons ') and contains(concat(' ', normalize-space(@class), ' '), ' on-left ')]</value>
-      <webElementGuid>69132a6d-7051-46db-90ce-9a2c333d0684</webElementGuid>
+      <value>//*[(name() = 'tr') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' non-selectable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--round ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--dense ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and (@role = 'img')]</value>
+      <webElementGuid>2da4dfcc-a480-4304-b1b6-ee2dcb1622ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//i[(text() = 'edit' or . = 'edit')]</value>
-      <webElementGuid>66436d30-9a14-4829-af9c-cc6cf11c637f</webElementGuid>
+      <webElementGuid>75d960c3-ef1a-4ccf-9f0f-133cb891adb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

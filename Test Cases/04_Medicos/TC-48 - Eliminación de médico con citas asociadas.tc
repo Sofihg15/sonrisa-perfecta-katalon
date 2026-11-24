@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-48 - Eliminación de médico con citas asociadas</name>
-   <testCaseGuid>48bbe33d-de8b-40f8-bebc-b017d5efc139</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e98787d6-4fa1-4d24-8665-bc879292d5b8</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

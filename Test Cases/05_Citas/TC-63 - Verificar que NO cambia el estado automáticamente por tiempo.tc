@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-63 - Verificar que NO cambia el estado automáticamente por tiempo</name>
-   <testCaseGuid>4e0669e3-a29e-4aac-b74d-6de6b64b1bc8</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd4d9834-f3f2-417b-82f4-4185d3b497fc</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

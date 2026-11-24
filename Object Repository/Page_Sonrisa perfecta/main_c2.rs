@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>main_c2</name>
+   <tag></tag>
+   <elementGuidId>070ff198-be46-4240-a5fb-c26572961741</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-page ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-page</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=main</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>main</value>
+      <webElementGuid>fa48466f-909f-4eae-845b-a584d3883333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-page</value>
+      <webElementGuid>eccd5087-2160-4bef-afc2-4aa45133e11b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c2</value>
+      <webElementGuid>8e6b74de-bf93-4faf-9913-b3536905bb58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sonrisa perfectaIniciar SesiónNombre de usuarioContraseñavisibility_offEntrar</value>
+      <webElementGuid>bfd47405-3ba5-4543-83c3-5f52fc5b5131</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0050de31ee1a22a995b31a1f0331a2fc</value>
+      <webElementGuid>671f93db-bddf-4948-8edc-127d8c2f2927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-page ')]</value>
+      <webElementGuid>8336a58e-8c29-4b24-8dc9-795afb652a3a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-page ')]</value>
+      <webElementGuid>2a1e2846-374b-443e-ad98-19ebbf2f655a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//main[@id = 'c2' and (text() = 'Sonrisa perfectaIniciar SesiónNombre de usuarioContraseñavisibility_offEntrar' or . = 'Sonrisa perfectaIniciar SesiónNombre de usuarioContraseñavisibility_offEntrar')]</value>
+      <webElementGuid>f6aa1daf-e1d5-4818-84cb-2e4ef066cb4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

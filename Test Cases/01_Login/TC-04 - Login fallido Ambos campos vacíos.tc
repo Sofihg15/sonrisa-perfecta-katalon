@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-04 - Login fallido Ambos campos vacíos</name>
-   <testCaseGuid>77374618-5290-4e3a-b90f-4e5b332eb870</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73e33d5a-4a13-4da0-b628-e5af9ee20f57</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

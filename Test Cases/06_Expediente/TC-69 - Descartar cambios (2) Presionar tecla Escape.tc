@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-69 - Descartar cambios (2) Presionar tecla Escape</name>
-   <testCaseGuid>e154a54a-efa7-42bf-946e-f1057f95f2f8</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72737097-a6c5-4bfe-979e-4e5820b92623</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

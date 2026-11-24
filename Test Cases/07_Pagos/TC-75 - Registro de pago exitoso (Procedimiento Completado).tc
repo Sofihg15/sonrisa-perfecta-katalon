@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-75 - Registro de pago exitoso (Procedimiento Completado)</name>
-   <testCaseGuid>6281ed6c-dca8-4c57-ba3f-e7d7955a8448</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7f7add2-bbdb-4392-99c1-1eb0d31112a4</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

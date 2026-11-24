@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-09 - Creación fallida Campo Nombre de usuario vacío</name>
-   <testCaseGuid>636740cf-fbdc-4e25-a11f-5daebb70aee6</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce1e6449-b17b-4bc0-b45d-3432c991ff90</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

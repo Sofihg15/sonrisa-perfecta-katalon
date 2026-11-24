@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-42 - Registro fallido Campo Email vacío</name>
-   <testCaseGuid>b1dbe6c9-3dca-4eb8-a648-df7ef7a225fc</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5fdaa40-30f5-4f9f-b74b-a9a75a43cd0a</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

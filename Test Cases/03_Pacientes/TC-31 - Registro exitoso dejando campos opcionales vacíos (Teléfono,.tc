@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-31 - Registro exitoso dejando campos opcionales vacíos (Teléfono,</name>
-   <testCaseGuid>083f11d6-b39c-47c3-a730-d9b7b06e2961</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02c08aee-91c4-4431-b75c-cdb4a072dad7</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

@@ -3,19 +3,19 @@
    <description></description>
    <name>span_Entrar</name>
    <tag></tag>
-   <elementGuidId>4612dab7-803a-48e6-aa96-b74a100574cb</elementGuidId>
+   <elementGuidId>0b46d60e-d071-4ac8-8958-8b9be7cbb301</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Entrar' or . = 'Entrar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>.block</value>
+         <value>.q-btn__content</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8132db80-1ad3-4ef2-b37e-0033fb5d7a93</webElementGuid>
+      <webElementGuid>f1774cce-297e-4371-a930-e0c9691ba1cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>block</value>
-      <webElementGuid>efd27499-555e-4c0e-8a16-e6dcd4bc887c</webElementGuid>
+      <value>q-btn__content text-center col items-center q-anchor--skip justify-center row</value>
+      <webElementGuid>26f88fa9-3c71-4002-be40-18b568a90f11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,31 +49,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Entrar</value>
-      <webElementGuid>071c6ea2-741a-4d13-90fa-b52d6ab460a8</webElementGuid>
+      <webElementGuid>7baf024d-385d-4df7-81af-fc5c2989d8cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-f66cd4a22b1cc850cd9f6430816ab1c6</value>
-      <webElementGuid>d0cf5ab6-1366-412d-829e-bddf6069e088</webElementGuid>
+      <value>md5.v1-be3c04305adea6b88e8781ed2343d8e6</value>
+      <webElementGuid>887c365f-bddb-4e4d-8a1e-9f421aedb337</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>f9fae058-8ba3-43ca-a919-ac610e58827e</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+      <webElementGuid>fba24238-e0cb-4390-9f8d-98f9c9af0879</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>96b387b0-7557-472b-aff1-6967275a0358</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+      <webElementGuid>c459f6ed-bf58-4149-8c7d-b4d769f1f3fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,14 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Entrar' or . = 'Entrar')]</value>
-      <webElementGuid>115d749c-e143-415b-8df5-ea92d69eae2d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
-      <webElementGuid>414204eb-1572-4b5d-8a51-361d604cfbbb</webElementGuid>
+      <webElementGuid>99b28ef6-54d9-4519-a861-e366b7aa64a8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

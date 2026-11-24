@@ -1,40 +1,19 @@
-/*
- * Sonrisa Perfecta - Ciclo de Prueba 1
- * TC-58 - Edición fallida: Intentar editar cita "Cancelada".
- * Modulo: CU-CITAS (Gestión de Citas) | Criticidad: Alta | Perfil: Recepcionista
- * Responsable: Andrea Itzayana Ortega Prieto
- *
- * Pre-condiciones:
- * 1. Sesión activa en el sistema (Recepcionista o Médico). 2. El catálogo de BD debe tener pacientes y
- * médicos registrados previamente. 3. El paciente objetivo debe estar buscado y seleccionado en la
- * barra superior para habilitar el botón 'Nueva Cita'. 4. La pantalla de Gestión de Citas debe estar
- * visible.
- *
- * Pasos:
- * Buscar cita cancelada Verificar botón editar
- *
- * Resultado esperado:
- * Botón deshabilitado o muestra error (RN11)
- *
- * Valores de entrada:
- * N/A
- *
- * COMO COMPLETAR ESTE CASO:
- * 1. Abre el caso en Katalon Studio y usa Web Recorder (o Spy) para grabar
- *    los pasos sobre https://sistemapruebas.yaelrdf.fun
- * 2. Reemplaza el codigo de abajo por los pasos grabados y agrega
- *    verificaciones (WebUI.verifyElementText / verifyElementPresent)
- *    segun el resultado esperado de arriba.
- * 3. Los valores de entrada de la matriz estan solo como referencia en
- *    este comentario; no se ejecutan como codigo.
- */
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.llm.keyword.LlmKeywords as LLM
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import org.openqa.selenium.Keys as Keys
+import internal.GlobalVariable as GlobalVariable
 
-// TODO: grabar los pasos con Web Recorder y completar el script
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://sistemapruebas.yaelrdf.fun/login')
-// Ejemplo:
-// WebUI.setText(findTestObject('Object Repository/Login/input_usuario'), 'usuario_prueba')
-// WebUI.verifyElementPresent(findTestObject('Object Repository/VistaGeneral/titulo'), 10)
-WebUI.closeBrowser()

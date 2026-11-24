@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-23 - Registro exitoso con campos obligatorios CURP, Nombre, Apell</name>
-   <testCaseGuid>e1a83292-bc26-408a-a5fc-d1d95a1e31b5</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69d6519b-7baf-4ead-b4ad-c9624ecaaf0b</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

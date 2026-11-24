@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-68 - Descartar cambios (1) Clic fuera del diálogo</name>
-   <testCaseGuid>f296adab-5b8e-4e91-8fad-5e52542d87a0</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f40b7638-546f-4e8c-b660-35b34a5aece6</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

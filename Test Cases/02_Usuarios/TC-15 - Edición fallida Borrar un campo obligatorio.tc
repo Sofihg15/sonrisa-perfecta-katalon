@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-15 - Edición fallida Borrar un campo obligatorio</name>
-   <testCaseGuid>a35de237-7e53-4d56-8db1-5459cadf1f79</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7027b879-a2b1-496e-a525-45921880ecf0</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

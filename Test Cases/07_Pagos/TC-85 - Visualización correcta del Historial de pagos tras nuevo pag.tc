@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testCase>
+<TestCaseEntity>
+   <description></description>
    <name>TC-85 - Visualización correcta del Historial de pagos tras nuevo pag</name>
-   <testCaseGuid>4eca8275-cbb6-4afa-bbf3-ebbcaf02e8ef</testCaseGuid>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc3ae540-6e5a-4f22-911d-a72cb46e67f9</testCaseGuid>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
@@ -10,4 +13,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid></testSuiteGuid>
-</testCase>
+</TestCaseEntity>

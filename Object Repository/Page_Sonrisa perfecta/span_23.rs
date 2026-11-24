@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_23</name>
+   <tag></tag>
+   <elementGuidId>f240c27d-4699-4ddf-b08a-cc71a8cabf33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item--in ') and (position() = 23)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-date__calendar-item.q-date__calendar-item--in:nth-child(23) .q-btn__content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;23&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>54887983-4fbf-48f0-80a4-b54628491b23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-btn__content text-center col items-center q-anchor--skip justify-center row</value>
+      <webElementGuid>756d3363-e8c1-4017-934b-d6b70561e719</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>23</value>
+      <webElementGuid>ce0c7485-88e6-4169-8f6e-764df065c3d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7ebeb5b30a3317044f7554af0d9f9980</value>
+      <webElementGuid>17041f2b-9b22-4542-b265-647a94daef3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item--in ') and (position() = 23)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+      <webElementGuid>1a914874-9da6-40e1-921e-a82541247d26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item--in ') and (position() = 23)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+      <webElementGuid>a692e0cc-6f47-4259-bb2f-402fc4b99910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '23' or . = '23')]</value>
+      <webElementGuid>6d8fb764-42b4-4ff5-8bb8-154ddbc40232</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
