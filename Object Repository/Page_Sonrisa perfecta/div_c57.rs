@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c57</name>
+   <tag></tag>
+   <elementGuidId>fbfa94d2-4189-460f-9569-36f8a7acc792</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-card.nicegui-card.cursor-pointer:nth-child(1) .nicegui-column</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Adriana Rubio Méndez5552345687&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>00b11f1c-9732-4c5e-a203-565258edd9c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c57</value>
+      <webElementGuid>730ee84d-f3df-4e58-a5c6-fd3ee6ae5490</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nicegui-column</value>
+      <webElementGuid>cd9f3657-86b3-4ac9-8559-5ed1ba6a96c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Adriana Rubio Méndez5552345687</value>
+      <webElementGuid>9e9971e7-d05d-4c79-be43-7839ad3dc63c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-587f8606c826db18c2c6494f9843f95c</value>
+      <webElementGuid>82bec2c4-6b1e-4a22-8a3b-35283157be2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ')]</value>
+      <webElementGuid>6f25f70b-658e-4d41-9d96-52dd88ad13f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-column ')]</value>
+      <webElementGuid>adc4f938-ca3c-436b-b549-c574fc715c11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c57' and (text() = 'Adriana Rubio Méndez5552345687' or . = 'Adriana Rubio Méndez5552345687')]</value>
+      <webElementGuid>daf2fa7d-48c7-46d0-afbb-4b2e23ff896d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
