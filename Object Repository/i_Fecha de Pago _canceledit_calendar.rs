@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Fecha de Pago _canceledit_calendar</name>
+   <tag></tag>
+   <elementGuidId>70a09854-4945-4ce2-a503-94c0aff9ef42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.q-field--outlined.q-field--labeled.q-field.q-field--float.q-input:nth-child(4) [aria-label=&quot;Clear&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--float ') and contains(concat(' ', normalize-space(@class), ' '), ' q-input ') and (position() = 4)]//*[@aria-label = 'Clear']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;Fecha de Pago *canceledit_calendar&quot;i >> internal:label=&quot;Clear&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>554b1ba3-ee57-43f5-8e20-2277c3400498</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-icon notranslate material-icons q-field__focusable-action</value>
+      <webElementGuid>e5a1bdd5-0ca4-4f13-8ab5-50d43e8a0971</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>19974277-1482-42b5-9c63-76a5819cbb6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>bb8faa19-be1c-4546-8d74-ec2269762315</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>12d92ec5-f6fb-4e83-bdbd-680cdc751e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Clear</value>
+      <webElementGuid>9dd519f3-2234-4b0c-99af-558be26da79f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cancel</value>
+      <webElementGuid>c1c143ea-7e22-4150-826f-1c7238bc3114</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-48521d38fc6b9aee62bcc50dc326ef68</value>
+      <webElementGuid>5108a9c1-7e24-4721-863f-7467dc0747ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--float ') and contains(concat(' ', normalize-space(@class), ' '), ' q-input ') and (position() = 4)]//*[@aria-label = 'Clear']</value>
+      <webElementGuid>348393b8-9d32-4dad-94e1-ccfe7bd44dad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--float ') and contains(concat(' ', normalize-space(@class), ' '), ' q-input ') and (position() = 4)]//*[@aria-label = 'Clear']</value>
+      <webElementGuid>dc16b4c5-9c8f-48f9-9dae-c58458983756</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = 'cancel' or . = 'cancel')]</value>
+      <webElementGuid>6237d5dc-532b-475d-9ccc-d1d1c3de555c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

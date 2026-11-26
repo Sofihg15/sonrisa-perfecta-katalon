@@ -1,0 +1,904 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes. Error detail: Chunk::new
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   This process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (arena.cpp:168), pid=1004, tid=5084
+#
+# JRE version: OpenJDK Runtime Environment Temurin-21.0.12+8 (21.0.12+8) (build 21.0.12+8-LTS)
+# Java VM: OpenJDK 64-Bit Server VM Temurin-21.0.12+8 (21.0.12+8-LTS, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dgroovy.home=C:\Users\betox/.groovy -Djava.system.class.loader=groovy.lang.GroovyClassLoader -Xmx2048m -Dfile.encoding=UTF-8 -Dsun.java2d.metal=false -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages org.codehaus.groovy.tools.GroovyStarter --classpath C:\Users\betox\git\sonrisa-perfecta-katalon\bin\keyword;C:\Users\betox\git\sonrisa-perfecta-katalon\Keywords;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\listener;C:\Users\betox\git\sonrisa-perfecta-katalon\Test Listeners;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\lib;C:\Users\betox\git\sonrisa-perfecta-katalon\Libs;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\groovy;C:\Users\betox\git\sonrisa-perfecta-katalon\Include\scripts\groovy;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\browsermob-core-2.1.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\dnsjava-3.6.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\groovy-3.0.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jackson-coreutils-2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jackson-coreutils-equivalence-1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\javax.servlet-api_3.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jna-5.18.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\json-schema-core-1.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\json-schema-validator-2.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jzlib-1.1.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\katalon-image-recognition-1.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\littleproxy-1.1.0-beta-bmp-17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mitm-2.1.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mockito-core-5.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mockito-inline-5.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\objenesis-3.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\selenium-shutterbug-1.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\swagger-parser-1.0.67-fat.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\uri-template-0.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.sf.supercsv.super-csv_2.4.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.lang3_3.20.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.gson_2.14.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.jsoup_1.23.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.dbutils_1.6.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.oracle.database.jdbc.ojdbc11_21.18.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.postgresql.jdbc_42.7.11.jar;c:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.osgi_3.24.300.v20260721-1251.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.constant_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.persistence.eclipselink_2.7.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.selenium-standalone_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\atu.testrecorder.screen-recorder_2.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.guava_33.7.1.jre.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.util_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.httpclient_4.5.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.httpcore_4.4.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.httpmime_4.5.13.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.lang_2.6.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.greenrobot.eventbus_3.1.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.bytebuddy.byte-buddy_1.18.11.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.junit_4.13.2.v20230809-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.core.jackson-databind_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.core.jackson-core_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.core.jackson-annotations_2.22.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.datatype.jackson-datatype-jdk8_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\slf4j.api_2.0.18.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.netlightbody_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.poi_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-text_1.10.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.microsoft.sqlserver.mssql-jdbc_12.6.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\javassist_3.30.2.GA.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\graphql-java_22.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.glassfish.jaxb.runtime_2.3.6.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.glassfish.jaxb.txw2_2.3.6.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.dom4j_2.1.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.groovy-extended_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.sun.activation.javax.activation_1.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.xml.bind-api_4.0.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jface_3.40.0.v20260710-0650.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.logging_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\json_20240303.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\assertj-core_3.27.7.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.networknt.json-schema-validator_2.0.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.network.apache_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.network.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\java-dataloader_3.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.collections_3.2.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-collections4_4.5.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-beanutils_1.11.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.report.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-api_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-remote-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-http_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\ch.qos.logback.classic_1.5.19.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\ch.qos.logback.core_1.5.19.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\log4j.over.slf4j_1.7.36.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.contexts_1.13.300.v20260605-0605.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.github.oshi.oshi-core_6.9.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.sun.jna.platform_5.19.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\in.wilsonl.minifyhtml.minify-html_0.18.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.di_1.9.900.v20260731-1431.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.inject.jakarta.inject-api_2.0.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.poi.poi_5.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.poi.poi-ooxml_5.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.poi.poi-ooxml-full_5.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.math3_3.6.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-io_2.22.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-codec_1.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.logging.log4j.api_2.26.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.logging.log4j.to.slf4j_2.26.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-compress_1.28.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.zaxxer.SparseBitSet_1.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.xmlbeans.xmlbeans_5.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.annotation-api_2.1.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.genai.google-genai_1.59.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.osgi.service.event_1.4.1.202109301733.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.services_2.5.400.v20260430-1313.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.settings_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-devtools-v153_4.49.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.logging_1.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.hamcrest.core_1.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-chrome-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-chromium-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-edge-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-firefox-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-safari-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-ie-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-manager_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-json_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.appium_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-os_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.appium.java-client_10.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.equinox.security_1.4.700.v20250622-1644.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jul.to.slf4j_2.0.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.equinox.common_3.21.0.v20260604-1221.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.platform.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.common_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.session.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.mobile.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.tracking.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.platform_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.di.annotations_1.8.500.v20260307-0017.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.entity_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.controller_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.composer.testops_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.application_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.gherkin_36.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution.webui_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.webui_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.mobile_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.tracking_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.equinox.registry_3.12.600.v20250906-0651.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\oauth2-oidc-sdk_11.29.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\dev.failsafe_3.3.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.18.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.minidev.json-smart_2.5.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.selfhealing.execution_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.ai.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.ai_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.compare.core_3.8.900.v20260731-0809.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.preferences_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.integration.analytics_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.platform_1.0.23.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.api.grpc.proto-google-common-protos_2.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.dal_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.dal.file_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.ui.di_1.5.700.v20250917-0901.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.webservice_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.groovy_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\reactive-streams_1.0.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.projectreactor.reactor-core_3.7.0.RELEASE.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.server_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.util_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.ee10.servlet_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.bedrockruntime_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.sdk-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.aws-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.regions_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.identity-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.auth_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-auth-aws_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-auth_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-auth-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-client-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.apache5-client_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.protocol-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.aws-json-protocol_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.json-utils_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.third-party-jackson-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.checksums_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.checksums-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.utils_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.retries_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.retries-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.profiles_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.endpoints-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.metrics-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.io_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.console_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-support_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.modelcontextprotocol.sdk.mcp-core_1.1.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.modelcontextprotocol.sdk.mcp-json-jackson2_1.1.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.execution.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.servlet-api_6.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.sf.jopt-simple.jopt-simple_5.0.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.capability.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.execution_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution.mobile_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.windows_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.project.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.openai_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.awsbedrock_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.proxyvole_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.search.core_3.16.700.v20260505-0615.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.jetbrains.kotlin.kotlin-stdlib_1.8.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.jetbrains.kotlin.kotlin-reflect_1.8.10.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.module.jackson-module-kotlin_2.18.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.squareup.okio_3.6.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.openai.openai-java-core_4.38.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.openai.openai-java-client-okhttp_4.38.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.squareup.okhttp3.okhttp_4.12.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.client5.httpclient5_5.6.4.v20260809-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.core5.httpcore5_5.4.3.v20260625-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.core5.httpcore5-h2_5.4.3.v20260625-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.eventstream.eventstream_1.0.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.execution.application_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.debug.core_3.24.0.v20260714-0955.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.lingala.zip4j_2.11.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.email_1.5.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\javax.mail-api_1.6.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jdt.launching_3.24.300.v20260609-0435.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.custom.improvement_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.session_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.freemarker.freemarker_2.3.35.stable.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jface.text_3.31.100.v20260814-0956.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.jasper_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\bcprov_1.85.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.nimbusds.nimbus-jose-jwt_10.4.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.bidib.com.github.markusbernhardt.proxy-vole_1.1.7.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-configuration2_2.12.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\delight-rhino-sandbox_0.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.mozilla.rhino-engine_1.7.15.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.webui.keyword_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.mobile.keyword_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.text_1.15.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-validator_1.7.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.xmlunit.xmlunit-core_2.10.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.android.tools.build.bundletool_1.18.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.android.tools.build.aapt2-proto_7.3.0.alpha07-8248216.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.protobuf.protobuf-java_3.22.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.protobuf.protobuf-java-util_3.22.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.dagger.dagger_2.28.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\javax.inject.javax.inject_1.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.guava.failureaccess_1.0.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.cucumber_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.ci-environment_12.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-core_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumberexpressions_18.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-gherkin_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-gherkin-messages_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-java_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-json-formatter_0.3.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-junit_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-plugin_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.datatable_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.docstring_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.html-formatter_22.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.junit-xml-formatter_0.11.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.pretty-formatter_2.4.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.messages_30.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.messages-ndjson_0.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.query_14.7.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.tag-expressions_8.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.module.jackson-module-parameter-names_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\wsdl4j_1.6.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.xml.ws-api_2.3.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.xml.soap-api_1.4.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.atlassian.oai.swagger-request-validator-core_2.38.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.compat-spec-parser_1.0.67.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.core.v3.swagger-annotations_2.2.31.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.core.v3.swagger-core_2.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.core.v3.swagger-models_2.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser-core_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser-v2-converter_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.github.java-json-tools.btf_1.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.21.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.yaml.snakeyaml_2.5.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.github.java-json-tools.msg-simple_1.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\joda-time_2.10.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.googlecode.libphonenumber_8.11.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser-v3_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser_1.0.67.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.narupley.not-going-to-be-commons-ssl_0.3.20.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.common_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.json-path_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.json-schema-validator_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.xml-path_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.hamcrest_2.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.annotations_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.llm_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.testng_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.testng_7.8.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.beust.jcommander_1.82.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.codehaus.groovy_3.0.25.v202609301323-e2609\lib\groovy-3.0.25-indy.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.codehaus.groovy_3.0.25.v202609301323-e2609\lib\ivy-2.5.3.jar --main groovy.ui.GroovyMain --encoding UTF-8 --indy C:\Users\betox\git\sonrisa-perfecta-katalon\Libs\S1124_11.groovy
+
+Host: Intel(R) Core(TM) i3-8145U CPU @ 2.10GHz, 4 cores, 7G,  Windows 11 , 64 bit Build 26100 (10.0.26100.9711)
+Time: Tue Nov 24 12:38:40 2026 Hora estándar central (México) elapsed time: 87.017775 seconds (0d 0h 1m 27s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002cafc796b20):  JavaThread "C2 CompilerThread0" daemon [_thread_in_native, id=5084, stack(0x000000f501600000,0x000000f501700000) (1024K)]
+
+
+Current CompileTask:
+C2:87017 12870       4       com.kms.katalon.core.webui.model.WebUiElementFinder::findElementsBySelectedMethod (9 bytes)
+
+Stack: [0x000000f501600000,0x000000f501700000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x6d83e9]
+V  [jvm.dll+0x8b5736]
+V  [jvm.dll+0x8b7cee]
+V  [jvm.dll+0x8b83d3]
+V  [jvm.dll+0x284596]
+V  [jvm.dll+0xc685d]
+V  [jvm.dll+0xc6da1]
+V  [jvm.dll+0x65ff6d]
+V  [jvm.dll+0x665dcb]
+V  [jvm.dll+0x666dc6]
+V  [jvm.dll+0x66510b]
+V  [jvm.dll+0x24c57b]
+V  [jvm.dll+0x24bce0]
+V  [jvm.dll+0x1cb4ae]
+V  [jvm.dll+0x25baad]
+V  [jvm.dll+0x25a03a]
+V  [jvm.dll+0x3f8aae]
+V  [jvm.dll+0x8600cd]
+V  [jvm.dll+0x6d6c1d]
+C  [ucrtbase.dll+0x2cd30]
+C  [KERNEL32.DLL+0x2dda7]
+C  [ntdll.dll+0x7ee4c]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x000002cac5763120, length=39, elements={
+0x000002cae03c2350, 0x000002cafc78b390, 0x000002cafc78d840, 0x000002cafc793e70,
+0x000002cafc7948d0, 0x000002cafc795330, 0x000002cafc795d90, 0x000002cafc796b20,
+0x000002cafc80a3d0, 0x000002cafc9e1710, 0x000002cafde41010, 0x000002caff2703d0,
+0x000002cafed60510, 0x000002cafed5fe80, 0x000002cafd3b6cb0, 0x000002cafd3b5f90,
+0x000002cafed60ba0, 0x000002cac56c0aa0, 0x000002cac56c1130, 0x000002cac56c1e50,
+0x000002cac56c24e0, 0x000002cac627a270, 0x000002cac627af90, 0x000002cac6278ec0,
+0x000002cac627b620, 0x000002cac627bcb0, 0x000002cac627c340, 0x000002cac6279be0,
+0x000002cac627c9d0, 0x000002cac6279550, 0x000002cac627eaa0, 0x000002cac627dd80,
+0x000002cac627d6f0, 0x000002cac627d060, 0x000002cac627f130, 0x000002cac627f7c0,
+0x000002cac627fe50, 0x000002cac62804e0, 0x000002cac627a900
+}
+
+Java Threads: ( => current thread )
+  0x000002cae03c2350 JavaThread "Forwarding findElements on session 41e57cd0f348fe33e6ef4f6d583f8a35 to remote"        [_thread_blocked, id=9996, stack(0x000000f500800000,0x000000f500900000) (1024K)]
+  0x000002cafc78b390 JavaThread "Reference Handler"          daemon [_thread_blocked, id=12296, stack(0x000000f501000000,0x000000f501100000) (1024K)]
+  0x000002cafc78d840 JavaThread "Finalizer"                  daemon [_thread_blocked, id=12496, stack(0x000000f501100000,0x000000f501200000) (1024K)]
+  0x000002cafc793e70 JavaThread "Signal Dispatcher"          daemon [_thread_blocked, id=11344, stack(0x000000f501200000,0x000000f501300000) (1024K)]
+  0x000002cafc7948d0 JavaThread "Attach Listener"            daemon [_thread_blocked, id=1944, stack(0x000000f501300000,0x000000f501400000) (1024K)]
+  0x000002cafc795330 JavaThread "Service Thread"             daemon [_thread_blocked, id=4188, stack(0x000000f501400000,0x000000f501500000) (1024K)]
+  0x000002cafc795d90 JavaThread "Monitor Deflation Thread"   daemon [_thread_blocked, id=5780, stack(0x000000f501500000,0x000000f501600000) (1024K)]
+=>0x000002cafc796b20 JavaThread "C2 CompilerThread0"         daemon [_thread_in_native, id=5084, stack(0x000000f501600000,0x000000f501700000) (1024K)]
+  0x000002cafc80a3d0 JavaThread "C1 CompilerThread0"         daemon [_thread_blocked, id=9608, stack(0x000000f501700000,0x000000f501800000) (1024K)]
+  0x000002cafc9e1710 JavaThread "Common-Cleaner"             daemon [_thread_blocked, id=12508, stack(0x000000f501800000,0x000000f501900000) (1024K)]
+  0x000002cafde41010 JavaThread "Notification Thread"        daemon [_thread_blocked, id=12172, stack(0x000000f501c00000,0x000000f501d00000) (1024K)]
+  0x000002caff2703d0 JavaThread "ForkJoinPool.commonPool-worker-1" daemon [_thread_blocked, id=5276, stack(0x000000f501f00000,0x000000f502000000) (1024K)]
+  0x000002cafed60510 JavaThread "UrlChecker-2"               daemon [_thread_blocked, id=13696, stack(0x000000f502400000,0x000000f502500000) (1024K)]
+  0x000002cafed5fe80 JavaThread "CompletableFutureDelayScheduler" daemon [_thread_blocked, id=5420, stack(0x000000f502700000,0x000000f502800000) (1024K)]
+  0x000002cafd3b6cb0 JavaThread "BiDi Connection"            daemon [_thread_blocked, id=11632, stack(0x000000f503400000,0x000000f503500000) (1024K)]
+  0x000002cafd3b5f90 JavaThread "Java2D Disposer"            daemon [_thread_blocked, id=10576, stack(0x000000f502600000,0x000000f502700000) (1024K)]
+  0x000002cafed60ba0 JavaThread "studioassist-responses-stream" daemon [_thread_blocked, id=8380, stack(0x000000f503500000,0x000000f503600000) (1024K)]
+  0x000002cac56c0aa0 JavaThread "Cleaner-0"                  daemon [_thread_blocked, id=3068, stack(0x000000f503600000,0x000000f503700000) (1024K)]
+  0x000002cac56c1130 JavaThread "Okio Watchdog"              daemon [_thread_blocked, id=6120, stack(0x000000f503800000,0x000000f503900000) (1024K)]
+  0x000002cac56c1e50 JavaThread "OkHttp testops.katalon.io"  daemon [_thread_in_native, id=12272, stack(0x000000f503900000,0x000000f503a00000) (1024K)]
+  0x000002cac56c24e0 JavaThread "OkHttp TaskRunner"          daemon [_thread_blocked, id=7644, stack(0x000000f503a00000,0x000000f503b00000) (1024K)]
+  0x000002cac627a270 JavaThread "OkHttp TaskRunner"          daemon [_thread_blocked, id=10172, stack(0x000000f503b00000,0x000000f503c00000) (1024K)]
+  0x000002cac627af90 JavaThread "OkHttp TaskRunner"          daemon [_thread_blocked, id=12084, stack(0x000000f503c00000,0x000000f503d00000) (1024K)]
+  0x000002cac6278ec0 JavaThread "AWT-Windows"                daemon [_thread_in_native, id=5560, stack(0x000000f503700000,0x000000f503800000) (1024K)]
+  0x000002cac627b620 JavaThread "HttpClient-4-SelectorManager" daemon [_thread_in_native, id=8036, stack(0x000000f502000000,0x000000f502100000) (1024K)]
+  0x000002cac627bcb0 JavaThread "External Process Output Forwarder - C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\drivers\edgechromium_win64\msedgedriver.exe" daemon [_thread_in_native, id=7604, stack(0x000000f502100000,0x000000f502200000) (1024K)]
+  0x000002cac627c340 JavaThread "Driver Service Executor"    daemon [_thread_blocked, id=7272, stack(0x000000f502200000,0x000000f502300000) (1024K)]
+  0x000002cac6279be0 JavaThread "Driver Service Executor"    daemon [_thread_blocked, id=3580, stack(0x000000f502300000,0x000000f502400000) (1024K)]
+  0x000002cac627c9d0 JavaThread "JdkHttpClient-3-0"          daemon [_thread_blocked, id=7592, stack(0x000000f502800000,0x000000f502900000) (1024K)]
+  0x000002cac6279550 JavaThread "JdkHttpClient-3-1"          daemon [_thread_blocked, id=8368, stack(0x000000f502900000,0x000000f502a00000) (1024K)]
+  0x000002cac627eaa0 JavaThread "JdkHttpClient-3-2"          daemon [_thread_blocked, id=5020, stack(0x000000f502a00000,0x000000f502b00000) (1024K)]
+  0x000002cac627dd80 JavaThread "HttpClient-5-SelectorManager" daemon [_thread_in_native, id=9332, stack(0x000000f502b00000,0x000000f502c00000) (1024K)]
+  0x000002cac627d6f0 JavaThread "JdkHttpClient-4-0"          daemon [_thread_blocked, id=1292, stack(0x000000f502c00000,0x000000f502d00000) (1024K)]
+  0x000002cac627d060 JavaThread "JdkHttpClient-4-1"          daemon [_thread_blocked, id=1900, stack(0x000000f502d00000,0x000000f502e00000) (1024K)]
+  0x000002cac627f130 JavaThread "HttpClient-6-SelectorManager" daemon [_thread_in_native, id=5548, stack(0x000000f502e00000,0x000000f502f00000) (1024K)]
+  0x000002cac627f7c0 JavaThread "JdkHttpClient-5-0"          daemon [_thread_blocked, id=14220, stack(0x000000f502f00000,0x000000f503000000) (1024K)]
+  0x000002cac627fe50 JavaThread "JdkHttpClient-5-1"          daemon [_thread_blocked, id=13276, stack(0x000000f503000000,0x000000f503100000) (1024K)]
+  0x000002cac62804e0 JavaThread "JdkHttpClient-5-2"          daemon [_thread_blocked, id=12168, stack(0x000000f503100000,0x000000f503200000) (1024K)]
+  0x000002cac627a900 JavaThread "DefaultSleeper"             daemon [_thread_blocked, id=7428, stack(0x000000f500700000,0x000000f500800000) (1024K)]
+Total: 39
+
+Other Threads:
+  0x000002cafa43e7e0 VMThread "VM Thread"                           [id=7020, stack(0x000000f500f00000,0x000000f501000000) (1024K)]
+  0x000002cafa428420 WatcherThread "VM Periodic Task Thread"        [id=7208, stack(0x000000f500e00000,0x000000f500f00000) (1024K)]
+  0x000002cae03ee8c0 WorkerThread "GC Thread#0"                     [id=10752, stack(0x000000f500900000,0x000000f500a00000) (1024K)]
+  0x000002cafcb797f0 WorkerThread "GC Thread#1"                     [id=4524, stack(0x000000f501900000,0x000000f501a00000) (1024K)]
+  0x000002cafce29120 WorkerThread "GC Thread#2"                     [id=6336, stack(0x000000f501a00000,0x000000f501b00000) (1024K)]
+  0x000002cafe46b220 WorkerThread "GC Thread#3"                     [id=8932, stack(0x000000f501d00000,0x000000f501e00000) (1024K)]
+  0x000002cafa27da80 ConcurrentGCThread "G1 Main Marker"            [id=12660, stack(0x000000f500a00000,0x000000f500b00000) (1024K)]
+  0x000002cafa27e590 WorkerThread "G1 Conc#0"                       [id=4168, stack(0x000000f500b00000,0x000000f500c00000) (1024K)]
+  0x000002cafa2f9af0 ConcurrentGCThread "G1 Refine#0"               [id=13480, stack(0x000000f500c00000,0x000000f500d00000) (1024K)]
+  0x000002cafa2fb520 ConcurrentGCThread "G1 Service"                [id=7052, stack(0x000000f500d00000,0x000000f500e00000) (1024K)]
+Total: 10
+
+Threads with active compile tasks:
+C2 CompilerThread0  87084 12870       4       com.kms.katalon.core.webui.model.WebUiElementFinder::findElementsBySelectedMethod (9 bytes)
+Total: 1
+
+VM state: not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap address: 0x0000000080000000, size: 2048 MB, Compressed Oops mode: 32-bit
+
+CDS archive(s) mapped at: [0x000002ca80000000-0x000002ca80c80000-0x000002ca80c80000), size 13107200, SharedBaseAddress: 0x000002ca80000000, ArchiveRelocationMode: 1.
+Compressed class space mapped at: 0x000002ca81000000-0x000002cac1000000, reserved size: 1073741824
+Narrow klass base: 0x000002ca80000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+
+GC Precious Log:
+ CardTable entry size: 512
+ Card Set container configuration: InlinePtr #cards 5 size 8 Array Of Cards #cards 12 size 40 Howl #buckets 4 coarsen threshold 1843 Howl Bitmap #cards 512 size 80 coarsen threshold 460 Card regions per heap region 1 cards per card region 2048
+ CPUs: 4 total, 4 available
+ Memory: 8040M
+ Large Page Support: Disabled
+ NUMA Support: Disabled
+ Compressed Oops: Enabled (32-bit)
+ Heap Region Size: 1M
+ Heap Min Capacity: 8M
+ Heap Initial Capacity: 126M
+ Heap Max Capacity: 2G
+ Pre-touch: Disabled
+ Parallel Workers: 4
+ Concurrent Workers: 1
+ Concurrent Refinement Workers: 4
+ Periodic GC: Disabled
+
+Heap:
+ garbage-first heap   total 156672K, used 123028K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 38 young (38912K), 3 survivors (3072K)
+ Metaspace       used 74166K, committed 75136K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+
+Heap Regions: E=young(eden), S=young(survivor), O=old, HS=humongous(starts), HC=humongous(continues), CS=collection set, F=free, TAMS=top-at-mark-start, PB=parsable bottom
+|   0|0x0000000080000000, 0x0000000080100000, 0x0000000080100000|100%|HS|  |TAMS 0x0000000080000000| PB 0x0000000080000000| Complete 
+|   1|0x0000000080100000, 0x0000000080200000, 0x0000000080200000|100%|HC|  |TAMS 0x0000000080100000| PB 0x0000000080100000| Complete 
+|   2|0x0000000080200000, 0x0000000080300000, 0x0000000080300000|100%| O|  |TAMS 0x0000000080200000| PB 0x0000000080200000| Untracked 
+|   3|0x0000000080300000, 0x0000000080400000, 0x0000000080400000|100%| O|  |TAMS 0x0000000080300000| PB 0x0000000080300000| Untracked 
+|   4|0x0000000080400000, 0x0000000080500000, 0x0000000080500000|100%| O|  |TAMS 0x0000000080400000| PB 0x0000000080400000| Untracked 
+|   5|0x0000000080500000, 0x0000000080600000, 0x0000000080600000|100%| O|  |TAMS 0x0000000080500000| PB 0x0000000080500000| Untracked 
+|   6|0x0000000080600000, 0x0000000080700000, 0x0000000080700000|100%| O|  |TAMS 0x0000000080600000| PB 0x0000000080600000| Untracked 
+|   7|0x0000000080700000, 0x0000000080800000, 0x0000000080800000|100%| O|  |TAMS 0x0000000080700000| PB 0x0000000080700000| Untracked 
+|   8|0x0000000080800000, 0x0000000080900000, 0x0000000080900000|100%| O|  |TAMS 0x0000000080800000| PB 0x0000000080800000| Untracked 
+|   9|0x0000000080900000, 0x0000000080a00000, 0x0000000080a00000|100%|HS|  |TAMS 0x0000000080900000| PB 0x0000000080900000| Complete 
+|  10|0x0000000080a00000, 0x0000000080b00000, 0x0000000080b00000|100%|HC|  |TAMS 0x0000000080a00000| PB 0x0000000080a00000| Complete 
+|  11|0x0000000080b00000, 0x0000000080c00000, 0x0000000080c00000|100%|HC|  |TAMS 0x0000000080b00000| PB 0x0000000080b00000| Complete 
+|  12|0x0000000080c00000, 0x0000000080d00000, 0x0000000080d00000|100%|HS|  |TAMS 0x0000000080c00000| PB 0x0000000080c00000| Complete 
+|  13|0x0000000080d00000, 0x0000000080e00000, 0x0000000080e00000|100%| O|  |TAMS 0x0000000080d00000| PB 0x0000000080d00000| Untracked 
+|  14|0x0000000080e00000, 0x0000000080f00000, 0x0000000080f00000|100%|HS|  |TAMS 0x0000000080e00000| PB 0x0000000080e00000| Complete 
+|  15|0x0000000080f00000, 0x0000000081000000, 0x0000000081000000|100%| O|  |TAMS 0x0000000080f00000| PB 0x0000000080f00000| Untracked 
+|  16|0x0000000081000000, 0x0000000081100000, 0x0000000081100000|100%|HS|  |TAMS 0x0000000081000000| PB 0x0000000081000000| Complete 
+|  17|0x0000000081100000, 0x0000000081200000, 0x0000000081200000|100%| O|  |TAMS 0x0000000081100000| PB 0x0000000081100000| Untracked 
+|  18|0x0000000081200000, 0x0000000081300000, 0x0000000081300000|100%| O|  |TAMS 0x0000000081200000| PB 0x0000000081200000| Untracked 
+|  19|0x0000000081300000, 0x0000000081400000, 0x0000000081400000|100%| O|  |TAMS 0x0000000081300000| PB 0x0000000081300000| Untracked 
+|  20|0x0000000081400000, 0x0000000081500000, 0x0000000081500000|100%| O|  |TAMS 0x0000000081400000| PB 0x0000000081400000| Untracked 
+|  21|0x0000000081500000, 0x0000000081600000, 0x0000000081600000|100%| O|  |TAMS 0x0000000081500000| PB 0x0000000081500000| Untracked 
+|  22|0x0000000081600000, 0x0000000081700000, 0x0000000081700000|100%| O|  |TAMS 0x0000000081600000| PB 0x0000000081600000| Untracked 
+|  23|0x0000000081700000, 0x0000000081800000, 0x0000000081800000|100%| O|  |TAMS 0x0000000081700000| PB 0x0000000081700000| Untracked 
+|  24|0x0000000081800000, 0x0000000081900000, 0x0000000081900000|100%| O|  |TAMS 0x0000000081800000| PB 0x0000000081800000| Untracked 
+|  25|0x0000000081900000, 0x0000000081a00000, 0x0000000081a00000|100%| O|  |TAMS 0x0000000081900000| PB 0x0000000081900000| Untracked 
+|  26|0x0000000081a00000, 0x0000000081b00000, 0x0000000081b00000|100%| O|  |TAMS 0x0000000081a00000| PB 0x0000000081a00000| Untracked 
+|  27|0x0000000081b00000, 0x0000000081c00000, 0x0000000081c00000|100%| O|  |TAMS 0x0000000081b00000| PB 0x0000000081b00000| Untracked 
+|  28|0x0000000081c00000, 0x0000000081d00000, 0x0000000081d00000|100%|HS|  |TAMS 0x0000000081c00000| PB 0x0000000081c00000| Complete 
+|  29|0x0000000081d00000, 0x0000000081e00000, 0x0000000081e00000|100%| O|  |TAMS 0x0000000081d00000| PB 0x0000000081d00000| Untracked 
+|  30|0x0000000081e00000, 0x0000000081f00000, 0x0000000081f00000|100%| O|  |TAMS 0x0000000081e00000| PB 0x0000000081e00000| Untracked 
+|  31|0x0000000081f00000, 0x0000000082000000, 0x0000000082000000|100%| O|  |TAMS 0x0000000081f00000| PB 0x0000000081f00000| Untracked 
+|  32|0x0000000082000000, 0x0000000082100000, 0x0000000082100000|100%| O|  |TAMS 0x0000000082000000| PB 0x0000000082000000| Untracked 
+|  33|0x0000000082100000, 0x0000000082200000, 0x0000000082200000|100%| O|  |TAMS 0x0000000082100000| PB 0x0000000082100000| Untracked 
+|  34|0x0000000082200000, 0x0000000082300000, 0x0000000082300000|100%| O|  |TAMS 0x0000000082200000| PB 0x0000000082200000| Untracked 
+|  35|0x0000000082300000, 0x0000000082400000, 0x0000000082400000|100%| O|  |TAMS 0x0000000082300000| PB 0x0000000082300000| Untracked 
+|  36|0x0000000082400000, 0x0000000082500000, 0x0000000082500000|100%| O|  |TAMS 0x0000000082400000| PB 0x0000000082400000| Untracked 
+|  37|0x0000000082500000, 0x0000000082600000, 0x0000000082600000|100%| O|  |TAMS 0x0000000082500000| PB 0x0000000082500000| Untracked 
+|  38|0x0000000082600000, 0x0000000082700000, 0x0000000082700000|100%| O|  |TAMS 0x0000000082600000| PB 0x0000000082600000| Untracked 
+|  39|0x0000000082700000, 0x0000000082800000, 0x0000000082800000|100%| O|  |TAMS 0x0000000082700000| PB 0x0000000082700000| Untracked 
+|  40|0x0000000082800000, 0x0000000082900000, 0x0000000082900000|100%| O|  |TAMS 0x0000000082800000| PB 0x0000000082800000| Untracked 
+|  41|0x0000000082900000, 0x0000000082a00000, 0x0000000082a00000|100%| O|  |TAMS 0x0000000082900000| PB 0x0000000082900000| Untracked 
+|  42|0x0000000082a00000, 0x0000000082b00000, 0x0000000082b00000|100%| O|  |TAMS 0x0000000082a00000| PB 0x0000000082a00000| Untracked 
+|  43|0x0000000082b00000, 0x0000000082c00000, 0x0000000082c00000|100%| O|  |TAMS 0x0000000082b00000| PB 0x0000000082b00000| Untracked 
+|  44|0x0000000082c00000, 0x0000000082d00000, 0x0000000082d00000|100%| O|  |TAMS 0x0000000082c00000| PB 0x0000000082c00000| Untracked 
+|  45|0x0000000082d00000, 0x0000000082e00000, 0x0000000082e00000|100%| O|  |TAMS 0x0000000082d00000| PB 0x0000000082d00000| Untracked 
+|  46|0x0000000082e00000, 0x0000000082f00000, 0x0000000082f00000|100%| O|  |TAMS 0x0000000082e00000| PB 0x0000000082e00000| Untracked 
+|  47|0x0000000082f00000, 0x0000000083000000, 0x0000000083000000|100%| O|  |TAMS 0x0000000082f00000| PB 0x0000000082f00000| Untracked 
+|  48|0x0000000083000000, 0x0000000083100000, 0x0000000083100000|100%|HS|  |TAMS 0x0000000083000000| PB 0x0000000083000000| Complete 
+|  49|0x0000000083100000, 0x0000000083200000, 0x0000000083200000|100%|HC|  |TAMS 0x0000000083100000| PB 0x0000000083100000| Complete 
+|  50|0x0000000083200000, 0x0000000083300000, 0x0000000083300000|100%| O|  |TAMS 0x0000000083200000| PB 0x0000000083200000| Untracked 
+|  51|0x0000000083300000, 0x0000000083400000, 0x0000000083400000|100%| O|  |TAMS 0x0000000083300000| PB 0x0000000083300000| Untracked 
+|  52|0x0000000083400000, 0x0000000083500000, 0x0000000083500000|100%| O|  |TAMS 0x0000000083400000| PB 0x0000000083400000| Untracked 
+|  53|0x0000000083500000, 0x0000000083600000, 0x0000000083600000|100%| O|  |TAMS 0x0000000083500000| PB 0x0000000083500000| Untracked 
+|  54|0x0000000083600000, 0x0000000083700000, 0x0000000083700000|100%| O|  |TAMS 0x0000000083600000| PB 0x0000000083600000| Untracked 
+|  55|0x0000000083700000, 0x0000000083800000, 0x0000000083800000|100%| O|  |TAMS 0x0000000083700000| PB 0x0000000083700000| Untracked 
+|  56|0x0000000083800000, 0x0000000083900000, 0x0000000083900000|100%| O|Cm|TAMS 0x0000000083800000| PB 0x0000000083800000| Complete 
+|  57|0x0000000083900000, 0x0000000083994de8, 0x0000000083a00000| 58%| O|  |TAMS 0x0000000083900000| PB 0x0000000083900000| Untracked 
+|  58|0x0000000083a00000, 0x0000000083b00000, 0x0000000083b00000|100%|HS|  |TAMS 0x0000000083a00000| PB 0x0000000083a00000| Complete 
+|  59|0x0000000083b00000, 0x0000000083c00000, 0x0000000083c00000|100%|HS|  |TAMS 0x0000000083b00000| PB 0x0000000083b00000| Complete 
+|  60|0x0000000083c00000, 0x0000000083d00000, 0x0000000083d00000|100%|HS|  |TAMS 0x0000000083c00000| PB 0x0000000083c00000| Complete 
+|  61|0x0000000083d00000, 0x0000000083e00000, 0x0000000083e00000|100%|HC|  |TAMS 0x0000000083d00000| PB 0x0000000083d00000| Complete 
+|  62|0x0000000083e00000, 0x0000000083f00000, 0x0000000083f00000|100%|HS|  |TAMS 0x0000000083e00000| PB 0x0000000083e00000| Complete 
+|  63|0x0000000083f00000, 0x0000000084000000, 0x0000000084000000|100%|HC|  |TAMS 0x0000000083f00000| PB 0x0000000083f00000| Complete 
+|  64|0x0000000084000000, 0x0000000084100000, 0x0000000084100000|100%|HS|  |TAMS 0x0000000084000000| PB 0x0000000084000000| Complete 
+|  65|0x0000000084100000, 0x0000000084200000, 0x0000000084200000|100%|HC|  |TAMS 0x0000000084100000| PB 0x0000000084100000| Complete 
+|  66|0x0000000084200000, 0x0000000084300000, 0x0000000084300000|100%|HS|  |TAMS 0x0000000084200000| PB 0x0000000084200000| Complete 
+|  67|0x0000000084300000, 0x0000000084400000, 0x0000000084400000|100%|HC|  |TAMS 0x0000000084300000| PB 0x0000000084300000| Complete 
+|  68|0x0000000084400000, 0x0000000084500000, 0x0000000084500000|100%|HS|  |TAMS 0x0000000084400000| PB 0x0000000084400000| Complete 
+|  69|0x0000000084500000, 0x0000000084600000, 0x0000000084600000|100%|HC|  |TAMS 0x0000000084500000| PB 0x0000000084500000| Complete 
+|  70|0x0000000084600000, 0x00000000846903a8, 0x0000000084700000| 56%| S|CS|TAMS 0x0000000084600000| PB 0x0000000084600000| Complete 
+|  71|0x0000000084700000, 0x0000000084800000, 0x0000000084800000|100%| S|CS|TAMS 0x0000000084700000| PB 0x0000000084700000| Complete 
+|  72|0x0000000084800000, 0x0000000084900000, 0x0000000084900000|100%| S|CS|TAMS 0x0000000084800000| PB 0x0000000084800000| Complete 
+|  73|0x0000000084900000, 0x0000000084a00000, 0x0000000084a00000|100%|HS|  |TAMS 0x0000000084900000| PB 0x0000000084900000| Complete 
+|  74|0x0000000084a00000, 0x0000000084b00000, 0x0000000084b00000|100%|HC|  |TAMS 0x0000000084a00000| PB 0x0000000084a00000| Complete 
+|  75|0x0000000084b00000, 0x0000000084c00000, 0x0000000084c00000|100%|HS|  |TAMS 0x0000000084b00000| PB 0x0000000084b00000| Complete 
+|  76|0x0000000084c00000, 0x0000000084d00000, 0x0000000084d00000|100%|HC|  |TAMS 0x0000000084c00000| PB 0x0000000084c00000| Complete 
+|  77|0x0000000084d00000, 0x0000000084e00000, 0x0000000084e00000|100%|HC|  |TAMS 0x0000000084d00000| PB 0x0000000084d00000| Complete 
+|  78|0x0000000084e00000, 0x0000000084f00000, 0x0000000084f00000|100%|HS|  |TAMS 0x0000000084e00000| PB 0x0000000084e00000| Complete 
+|  79|0x0000000084f00000, 0x0000000085000000, 0x0000000085000000|100%|HC|  |TAMS 0x0000000084f00000| PB 0x0000000084f00000| Complete 
+|  80|0x0000000085000000, 0x0000000085100000, 0x0000000085100000|100%|HS|  |TAMS 0x0000000085000000| PB 0x0000000085000000| Complete 
+|  81|0x0000000085100000, 0x0000000085200000, 0x0000000085200000|100%|HC|  |TAMS 0x0000000085100000| PB 0x0000000085100000| Complete 
+|  82|0x0000000085200000, 0x0000000085300000, 0x0000000085300000|100%|HS|  |TAMS 0x0000000085200000| PB 0x0000000085200000| Complete 
+|  83|0x0000000085300000, 0x0000000085300000, 0x0000000085400000|  0%| F|  |TAMS 0x0000000085300000| PB 0x0000000085300000| Untracked 
+|  84|0x0000000085400000, 0x0000000085400000, 0x0000000085500000|  0%| F|  |TAMS 0x0000000085400000| PB 0x0000000085400000| Untracked 
+|  85|0x0000000085500000, 0x0000000085500000, 0x0000000085600000|  0%| F|  |TAMS 0x0000000085500000| PB 0x0000000085500000| Untracked 
+|  86|0x0000000085600000, 0x0000000085600000, 0x0000000085700000|  0%| F|  |TAMS 0x0000000085600000| PB 0x0000000085600000| Untracked 
+|  87|0x0000000085700000, 0x0000000085700000, 0x0000000085800000|  0%| F|  |TAMS 0x0000000085700000| PB 0x0000000085700000| Untracked 
+|  88|0x0000000085800000, 0x0000000085800000, 0x0000000085900000|  0%| F|  |TAMS 0x0000000085800000| PB 0x0000000085800000| Untracked 
+|  89|0x0000000085900000, 0x0000000085900000, 0x0000000085a00000|  0%| F|  |TAMS 0x0000000085900000| PB 0x0000000085900000| Untracked 
+|  90|0x0000000085a00000, 0x0000000085a00000, 0x0000000085b00000|  0%| F|  |TAMS 0x0000000085a00000| PB 0x0000000085a00000| Untracked 
+|  91|0x0000000085b00000, 0x0000000085b00000, 0x0000000085c00000|  0%| F|  |TAMS 0x0000000085b00000| PB 0x0000000085b00000| Untracked 
+|  92|0x0000000085c00000, 0x0000000085c00000, 0x0000000085d00000|  0%| F|  |TAMS 0x0000000085c00000| PB 0x0000000085c00000| Untracked 
+|  93|0x0000000085d00000, 0x0000000085d00000, 0x0000000085e00000|  0%| F|  |TAMS 0x0000000085d00000| PB 0x0000000085d00000| Untracked 
+|  94|0x0000000085e00000, 0x0000000085e00000, 0x0000000085f00000|  0%| F|  |TAMS 0x0000000085e00000| PB 0x0000000085e00000| Untracked 
+|  95|0x0000000085f00000, 0x0000000085f00000, 0x0000000086000000|  0%| F|  |TAMS 0x0000000085f00000| PB 0x0000000085f00000| Untracked 
+|  96|0x0000000086000000, 0x0000000086000000, 0x0000000086100000|  0%| F|  |TAMS 0x0000000086000000| PB 0x0000000086000000| Untracked 
+|  97|0x0000000086100000, 0x0000000086100000, 0x0000000086200000|  0%| F|  |TAMS 0x0000000086100000| PB 0x0000000086100000| Untracked 
+|  98|0x0000000086200000, 0x0000000086200000, 0x0000000086300000|  0%| F|  |TAMS 0x0000000086200000| PB 0x0000000086200000| Untracked 
+|  99|0x0000000086300000, 0x0000000086300000, 0x0000000086400000|  0%| F|  |TAMS 0x0000000086300000| PB 0x0000000086300000| Untracked 
+| 100|0x0000000086400000, 0x0000000086400000, 0x0000000086500000|  0%| F|  |TAMS 0x0000000086400000| PB 0x0000000086400000| Untracked 
+| 101|0x0000000086500000, 0x0000000086500000, 0x0000000086600000|  0%| F|  |TAMS 0x0000000086500000| PB 0x0000000086500000| Untracked 
+| 102|0x0000000086600000, 0x0000000086600000, 0x0000000086700000|  0%| F|  |TAMS 0x0000000086600000| PB 0x0000000086600000| Untracked 
+| 103|0x0000000086700000, 0x0000000086700000, 0x0000000086800000|  0%| F|  |TAMS 0x0000000086700000| PB 0x0000000086700000| Untracked 
+| 104|0x0000000086800000, 0x0000000086800000, 0x0000000086900000|  0%| F|  |TAMS 0x0000000086800000| PB 0x0000000086800000| Untracked 
+| 105|0x0000000086900000, 0x0000000086900000, 0x0000000086a00000|  0%| F|  |TAMS 0x0000000086900000| PB 0x0000000086900000| Untracked 
+| 106|0x0000000086a00000, 0x0000000086a00000, 0x0000000086b00000|  0%| F|  |TAMS 0x0000000086a00000| PB 0x0000000086a00000| Untracked 
+| 107|0x0000000086b00000, 0x0000000086b00000, 0x0000000086c00000|  0%| F|  |TAMS 0x0000000086b00000| PB 0x0000000086b00000| Untracked 
+| 108|0x0000000086c00000, 0x0000000086c00000, 0x0000000086d00000|  0%| F|  |TAMS 0x0000000086c00000| PB 0x0000000086c00000| Untracked 
+| 109|0x0000000086d00000, 0x0000000086d00000, 0x0000000086e00000|  0%| F|  |TAMS 0x0000000086d00000| PB 0x0000000086d00000| Untracked 
+| 110|0x0000000086e00000, 0x0000000086e00000, 0x0000000086f00000|  0%| F|  |TAMS 0x0000000086e00000| PB 0x0000000086e00000| Untracked 
+| 111|0x0000000086f00000, 0x0000000086f00000, 0x0000000087000000|  0%| F|  |TAMS 0x0000000086f00000| PB 0x0000000086f00000| Untracked 
+| 112|0x0000000087000000, 0x0000000087000000, 0x0000000087100000|  0%| F|  |TAMS 0x0000000087000000| PB 0x0000000087000000| Untracked 
+| 113|0x0000000087100000, 0x00000000871f04a8, 0x0000000087200000| 93%| E|  |TAMS 0x0000000087100000| PB 0x0000000087100000| Complete 
+| 114|0x0000000087200000, 0x0000000087300000, 0x0000000087300000|100%| E|CS|TAMS 0x0000000087200000| PB 0x0000000087200000| Complete 
+| 115|0x0000000087300000, 0x0000000087400000, 0x0000000087400000|100%| E|CS|TAMS 0x0000000087300000| PB 0x0000000087300000| Complete 
+| 116|0x0000000087400000, 0x0000000087500000, 0x0000000087500000|100%| E|CS|TAMS 0x0000000087400000| PB 0x0000000087400000| Complete 
+| 117|0x0000000087500000, 0x0000000087600000, 0x0000000087600000|100%| E|  |TAMS 0x0000000087500000| PB 0x0000000087500000| Complete 
+| 118|0x0000000087600000, 0x0000000087700000, 0x0000000087700000|100%| E|CS|TAMS 0x0000000087600000| PB 0x0000000087600000| Complete 
+| 119|0x0000000087700000, 0x0000000087800000, 0x0000000087800000|100%| E|CS|TAMS 0x0000000087700000| PB 0x0000000087700000| Complete 
+| 120|0x0000000087800000, 0x0000000087900000, 0x0000000087900000|100%| E|CS|TAMS 0x0000000087800000| PB 0x0000000087800000| Complete 
+| 121|0x0000000087900000, 0x0000000087a00000, 0x0000000087a00000|100%| E|CS|TAMS 0x0000000087900000| PB 0x0000000087900000| Complete 
+| 122|0x0000000087a00000, 0x0000000087b00000, 0x0000000087b00000|100%| E|CS|TAMS 0x0000000087a00000| PB 0x0000000087a00000| Complete 
+| 123|0x0000000087b00000, 0x0000000087c00000, 0x0000000087c00000|100%| E|CS|TAMS 0x0000000087b00000| PB 0x0000000087b00000| Complete 
+| 124|0x0000000087c00000, 0x0000000087d00000, 0x0000000087d00000|100%| E|CS|TAMS 0x0000000087c00000| PB 0x0000000087c00000| Complete 
+| 125|0x0000000087d00000, 0x0000000087e00000, 0x0000000087e00000|100%| E|CS|TAMS 0x0000000087d00000| PB 0x0000000087d00000| Complete 
+| 126|0x0000000087e00000, 0x0000000087f00000, 0x0000000087f00000|100%| E|CS|TAMS 0x0000000087e00000| PB 0x0000000087e00000| Complete 
+| 127|0x0000000087f00000, 0x0000000088000000, 0x0000000088000000|100%| E|CS|TAMS 0x0000000087f00000| PB 0x0000000087f00000| Complete 
+| 128|0x0000000088000000, 0x0000000088100000, 0x0000000088100000|100%| E|CS|TAMS 0x0000000088000000| PB 0x0000000088000000| Complete 
+| 129|0x0000000088100000, 0x0000000088200000, 0x0000000088200000|100%| E|CS|TAMS 0x0000000088100000| PB 0x0000000088100000| Complete 
+| 130|0x0000000088200000, 0x0000000088300000, 0x0000000088300000|100%| E|CS|TAMS 0x0000000088200000| PB 0x0000000088200000| Complete 
+| 131|0x0000000088300000, 0x0000000088400000, 0x0000000088400000|100%| E|CS|TAMS 0x0000000088300000| PB 0x0000000088300000| Complete 
+| 132|0x0000000088400000, 0x0000000088500000, 0x0000000088500000|100%| E|CS|TAMS 0x0000000088400000| PB 0x0000000088400000| Complete 
+| 133|0x0000000088500000, 0x0000000088600000, 0x0000000088600000|100%| E|CS|TAMS 0x0000000088500000| PB 0x0000000088500000| Complete 
+| 134|0x0000000088600000, 0x0000000088700000, 0x0000000088700000|100%| E|CS|TAMS 0x0000000088600000| PB 0x0000000088600000| Complete 
+| 135|0x0000000088700000, 0x0000000088800000, 0x0000000088800000|100%| E|CS|TAMS 0x0000000088700000| PB 0x0000000088700000| Complete 
+| 136|0x0000000088800000, 0x0000000088900000, 0x0000000088900000|100%| E|CS|TAMS 0x0000000088800000| PB 0x0000000088800000| Complete 
+| 137|0x0000000088900000, 0x0000000088a00000, 0x0000000088a00000|100%| E|CS|TAMS 0x0000000088900000| PB 0x0000000088900000| Complete 
+| 138|0x0000000088a00000, 0x0000000088b00000, 0x0000000088b00000|100%| E|CS|TAMS 0x0000000088a00000| PB 0x0000000088a00000| Complete 
+| 139|0x0000000088b00000, 0x0000000088c00000, 0x0000000088c00000|100%| E|CS|TAMS 0x0000000088b00000| PB 0x0000000088b00000| Complete 
+| 140|0x0000000088c00000, 0x0000000088d00000, 0x0000000088d00000|100%| E|CS|TAMS 0x0000000088c00000| PB 0x0000000088c00000| Complete 
+| 141|0x0000000088d00000, 0x0000000088e00000, 0x0000000088e00000|100%| E|CS|TAMS 0x0000000088d00000| PB 0x0000000088d00000| Complete 
+| 142|0x0000000088e00000, 0x0000000088f00000, 0x0000000088f00000|100%| E|CS|TAMS 0x0000000088e00000| PB 0x0000000088e00000| Complete 
+| 143|0x0000000088f00000, 0x0000000089000000, 0x0000000089000000|100%| E|CS|TAMS 0x0000000088f00000| PB 0x0000000088f00000| Complete 
+| 144|0x0000000089000000, 0x0000000089100000, 0x0000000089100000|100%| E|CS|TAMS 0x0000000089000000| PB 0x0000000089000000| Complete 
+| 145|0x0000000089100000, 0x0000000089200000, 0x0000000089200000|100%| E|CS|TAMS 0x0000000089100000| PB 0x0000000089100000| Complete 
+| 146|0x0000000089200000, 0x0000000089300000, 0x0000000089300000|100%| E|CS|TAMS 0x0000000089200000| PB 0x0000000089200000| Complete 
+| 147|0x0000000089300000, 0x0000000089400000, 0x0000000089400000|100%| E|CS|TAMS 0x0000000089300000| PB 0x0000000089300000| Complete 
+|2043|0x00000000ffb00000, 0x00000000ffc00000, 0x00000000ffc00000|100%| O|  |TAMS 0x00000000ffb00000| PB 0x00000000ffb00000| Untracked 
+|2044|0x00000000ffc00000, 0x00000000ffd00000, 0x00000000ffd00000|100%| O|  |TAMS 0x00000000ffc00000| PB 0x00000000ffc00000| Untracked 
+|2045|0x00000000ffd00000, 0x00000000ffe00000, 0x00000000ffe00000|100%| O|  |TAMS 0x00000000ffd00000| PB 0x00000000ffd00000| Untracked 
+|2046|0x00000000ffe00000, 0x00000000fff00000, 0x00000000fff00000|100%| O|  |TAMS 0x00000000ffe00000| PB 0x00000000ffe00000| Untracked 
+|2047|0x00000000fff00000, 0x0000000100000000, 0x0000000100000000|100%| O|  |TAMS 0x00000000fff00000| PB 0x00000000fff00000| Untracked 
+
+Card table byte_map: [0x000002caf7e50000,0x000002caf8250000] _byte_map_base: 0x000002caf7a50000
+
+Marking Bits: (CMBitMap*) 0x000002cafa2751c0
+ Bits: [0x000002caf8250000, 0x000002cafa250000)
+
+Polling page: 0x000002cade110000
+
+Metaspace:
+
+Usage:
+  Non-class:     64.02 MB used.
+      Class:      8.41 MB used.
+       Both:     72.43 MB used.
+
+Virtual space:
+  Non-class space:      128.00 MB reserved,      64.56 MB ( 50%) committed,  2 nodes.
+      Class space:        1.00 GB reserved,       8.81 MB ( <1%) committed,  1 nodes.
+             Both:        1.12 GB reserved,      73.38 MB (  6%) committed. 
+
+Chunk freelists:
+   Non-Class:  15.04 MB
+       Class:  7.16 MB
+        Both:  22.20 MB
+
+MaxMetaspaceSize: unlimited
+CompressedClassSpaceSize: 1.00 GB
+Initial GC threshold: 21.00 MB
+Current GC threshold: 121.81 MB
+CDS: on
+ - commit_granule_bytes: 65536.
+ - commit_granule_words: 8192.
+ - virtual_space_node_default_size: 8388608.
+ - enlarge_chunks_in_place: 1.
+ - use_allocation_guard: 0.
+
+
+Internal statistics:
+
+num_allocs_failed_limit: 15.
+num_arena_births: 1320.
+num_arena_deaths: 6.
+num_vsnodes_births: 3.
+num_vsnodes_deaths: 0.
+num_space_committed: 1174.
+num_space_uncommitted: 0.
+num_chunks_returned_to_freelist: 23.
+num_chunks_taken_from_freelist: 3686.
+num_chunk_merges: 13.
+num_chunk_splits: 2631.
+num_chunks_enlarged: 1950.
+num_inconsistent_stats: 0.
+
+CodeHeap 'non-profiled nmethods': size=120000Kb used=7524Kb max_used=7533Kb free=112475Kb
+ bounds [0x000002caf0520000, 0x000002caf0cb0000, 0x000002caf7a50000]
+CodeHeap 'profiled nmethods': size=120000Kb used=20782Kb max_used=21013Kb free=99217Kb
+ bounds [0x000002cae8a50000, 0x000002cae9f10000, 0x000002caeff80000]
+CodeHeap 'non-nmethods': size=5760Kb used=2845Kb max_used=2930Kb free=2914Kb
+ bounds [0x000002caeff80000, 0x000002caf0270000, 0x000002caf0520000]
+CodeCache: size=245760Kb, used=31151Kb, max_used=31476Kb, free=214606Kb
+ total_blobs=11444, nmethods=10352, adapters=994, full_count=0
+Compilation: enabled, stopped_count=0, restarted_count=0
+
+Compilation events (20 events):
+Event: 86.431 Thread 0x000002cafc80a3d0 12862   !   3       com.sun.org.apache.xerces.internal.utils.XMLSecurityManager::getPropertyConfig (68 bytes)
+Event: 86.431 Thread 0x000002cafc80a3d0 nmethod 12862 0x000002cae9477310 code [0x000002cae9477560, 0x000002cae9477c50]
+Event: 86.437 Thread 0x000002cafc80a3d0 12864       3       com.sun.org.apache.xerces.internal.util.SymbolTable::addSymbol0 (103 bytes)
+Event: 86.437 Thread 0x000002cafc80a3d0 nmethod 12864 0x000002cae96dd490 code [0x000002cae96dd6e0, 0x000002cae96ddf30]
+Event: 86.437 Thread 0x000002cafc80a3d0 12866       3       com.sun.org.apache.xerces.internal.xni.XMLString::append (110 bytes)
+Event: 86.438 Thread 0x000002cafc80a3d0 nmethod 12866 0x000002cae96dcb90 code [0x000002cae96dcd60, 0x000002cae96dd1f0]
+Event: 86.438 Thread 0x000002cafc80a3d0 12865       3       com.sun.org.apache.xerces.internal.xni.XMLString::append (17 bytes)
+Event: 86.438 Thread 0x000002cafc80a3d0 nmethod 12865 0x000002cae941f910 code [0x000002cae941fac0, 0x000002cae941fca0]
+Event: 86.439 Thread 0x000002cafc80a3d0 12867       2       com.google.gson.internal.Excluder::excludeClass (140 bytes)
+Event: 86.441 Thread 0x000002cafc80a3d0 nmethod 12867 0x000002cae9622c90 code [0x000002cae9623020, 0x000002cae9623d78]
+Event: 86.441 Thread 0x000002cafc80a3d0 12868       3       com.google.gson.internal.ConstructorConstructor::newCollectionConstructor (62 bytes)
+Event: 86.442 Thread 0x000002cafc80a3d0 nmethod 12868 0x000002cae928e490 code [0x000002cae928e700, 0x000002cae928ee48]
+Event: 86.454 Thread 0x000002cafc796b20 nmethod 12858 0x000002caf0612390 code [0x000002caf0612680, 0x000002caf06133c0]
+Event: 86.454 Thread 0x000002cafc796b20 12859       4       java.lang.invoke.DirectMethodHandle$Holder::invokeStatic (20 bytes)
+Event: 86.455 Thread 0x000002cafc796b20 nmethod 12859 0x000002caf0558a10 code [0x000002caf0558ba0, 0x000002caf0558ca0]
+Event: 86.635 Thread 0x000002cafc796b20 12869       4       org.openqa.selenium.By$BaseW3CLocator::<init> (18 bytes)
+Event: 86.638 Thread 0x000002cafc796b20 nmethod 12869 0x000002caf0558390 code [0x000002caf0558520, 0x000002caf05588d8]
+Event: 86.789 Thread 0x000002cafc796b20 12870       4       com.kms.katalon.core.webui.model.WebUiElementFinder::findElementsBySelectedMethod (9 bytes)
+Event: 86.856 Thread 0x000002cafc80a3d0 12872       2       com.kms.katalon.core.webui.model.WebUiElementFinderWithTimeout$$Lambda/0x000002ca816a0000::execute (13 bytes)
+Event: 86.856 Thread 0x000002cafc80a3d0 nmethod 12872 0x000002cae9476f10 code [0x000002cae94770c0, 0x000002cae94771f0]
+
+GC Heap History (20 events):
+Event: 39.518 GC heap before
+{Heap before GC invocations=26 (full 0):
+ garbage-first heap   total 150528K, used 121331K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 54 young (55296K), 2 survivors (2048K)
+ Metaspace       used 72667K, committed 73536K, reserved 1114112K
+  class space    used 8551K, committed 8960K, reserved 1048576K
+}
+Event: 39.520 GC heap after
+{Heap after GC invocations=27 (full 0):
+ garbage-first heap   total 150528K, used 69158K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 2 young (2048K), 2 survivors (2048K)
+ Metaspace       used 72667K, committed 73536K, reserved 1114112K
+  class space    used 8551K, committed 8960K, reserved 1048576K
+}
+Event: 43.208 GC heap before
+{Heap before GC invocations=27 (full 0):
+ garbage-first heap   total 150528K, used 129574K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 58 young (59392K), 2 survivors (2048K)
+ Metaspace       used 72857K, committed 73728K, reserved 1179648K
+  class space    used 8552K, committed 8960K, reserved 1048576K
+}
+Event: 43.211 GC heap after
+{Heap after GC invocations=28 (full 0):
+ garbage-first heap   total 150528K, used 72087K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 2 young (2048K), 2 survivors (2048K)
+ Metaspace       used 72857K, committed 73728K, reserved 1179648K
+  class space    used 8552K, committed 8960K, reserved 1048576K
+}
+Event: 43.369 GC heap before
+{Heap before GC invocations=28 (full 0):
+ garbage-first heap   total 150528K, used 73111K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 5 young (5120K), 2 survivors (2048K)
+ Metaspace       used 72882K, committed 73792K, reserved 1179648K
+  class space    used 8552K, committed 8960K, reserved 1048576K
+}
+Event: 43.371 GC heap after
+{Heap after GC invocations=29 (full 0):
+ garbage-first heap   total 150528K, used 69188K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 2 young (2048K), 2 survivors (2048K)
+ Metaspace       used 72882K, committed 73792K, reserved 1179648K
+  class space    used 8552K, committed 8960K, reserved 1048576K
+}
+Event: 60.361 GC heap before
+{Heap before GC invocations=30 (full 0):
+ garbage-first heap   total 150528K, used 148036K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 61 young (62464K), 2 survivors (2048K)
+ Metaspace       used 73697K, committed 74624K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 60.365 GC heap after
+{Heap after GC invocations=31 (full 0):
+ garbage-first heap   total 153600K, used 70002K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 3 young (3072K), 3 survivors (3072K)
+ Metaspace       used 73697K, committed 74624K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 63.697 GC heap before
+{Heap before GC invocations=31 (full 0):
+ garbage-first heap   total 153600K, used 134514K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 67 young (68608K), 3 survivors (3072K)
+ Metaspace       used 73697K, committed 74624K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 63.701 GC heap after
+{Heap after GC invocations=32 (full 0):
+ garbage-first heap   total 153600K, used 69835K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 3 young (3072K), 3 survivors (3072K)
+ Metaspace       used 73697K, committed 74624K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 67.326 GC heap before
+{Heap before GC invocations=32 (full 0):
+ garbage-first heap   total 153600K, used 137419K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 70 young (71680K), 3 survivors (3072K)
+ Metaspace       used 73715K, committed 74624K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 67.329 GC heap after
+{Heap after GC invocations=33 (full 0):
+ garbage-first heap   total 153600K, used 69778K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 3 young (3072K), 3 survivors (3072K)
+ Metaspace       used 73715K, committed 74624K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 73.137 GC heap before
+{Heap before GC invocations=34 (full 0):
+ garbage-first heap   total 153600K, used 151698K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 65 young (66560K), 3 survivors (3072K)
+ Metaspace       used 73946K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 73.140 GC heap after
+{Heap after GC invocations=35 (full 0):
+ garbage-first heap   total 156672K, used 73158K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 3 young (3072K), 3 survivors (3072K)
+ Metaspace       used 73946K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 76.169 GC heap before
+{Heap before GC invocations=35 (full 0):
+ garbage-first heap   total 156672K, used 144838K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 74 young (75776K), 3 survivors (3072K)
+ Metaspace       used 73946K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 76.173 GC heap after
+{Heap after GC invocations=36 (full 0):
+ garbage-first heap   total 156672K, used 69763K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 3 young (3072K), 3 survivors (3072K)
+ Metaspace       used 73946K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 79.501 GC heap before
+{Heap before GC invocations=36 (full 0):
+ garbage-first heap   total 156672K, used 146563K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 78 young (79872K), 3 survivors (3072K)
+ Metaspace       used 73946K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 79.503 GC heap after
+{Heap after GC invocations=37 (full 0):
+ garbage-first heap   total 156672K, used 69651K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 3 young (3072K), 3 survivors (3072K)
+ Metaspace       used 73946K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 82.766 GC heap before
+{Heap before GC invocations=38 (full 0):
+ garbage-first heap   total 156672K, used 145427K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 78 young (79872K), 3 survivors (3072K)
+ Metaspace       used 73947K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+Event: 82.769 GC heap after
+{Heap after GC invocations=39 (full 0):
+ garbage-first heap   total 156672K, used 69780K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 3 young (3072K), 3 survivors (3072K)
+ Metaspace       used 73947K, committed 74816K, reserved 1179648K
+  class space    used 8613K, committed 9024K, reserved 1048576K
+}
+
+Dll operation events (20 events):
+Event: 0.412 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\net.dll
+Event: 0.414 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\net.dll
+Event: 0.416 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\nio.dll
+Event: 0.416 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\nio.dll
+Event: 0.422 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\zip.dll
+Event: 0.422 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\zip.dll
+Event: 1.107 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\verify.dll
+Event: 1.108 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\verify.dll
+Event: 1.432 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\jimage.dll
+Event: 1.432 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\jimage.dll
+Event: 5.483 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\sunmscapi.dll
+Event: 5.486 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\sunmscapi.dll
+Event: 5.935 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\extnet.dll
+Event: 5.936 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\extnet.dll
+Event: 25.694 Attempting to load shared library C:\Users\betox\AppData\Local\Temp\minify-html-java-nativelib6519854440621770993win-x64.nativelib
+Event: 26.140 Loaded shared library C:\Users\betox\AppData\Local\Temp\minify-html-java-nativelib6519854440621770993win-x64.nativelib
+Event: 26.245 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\awt.dll
+Event: 26.248 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\awt.dll
+Event: 26.381 Attempting to load shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\javajpeg.dll
+Event: 26.382 Loaded shared library C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\javajpeg.dll
+
+Deoptimization events (20 events):
+Event: 85.188 Thread 0x000002cae03c2350 Uncommon trap: trap_request=0xffffffde fr.pc=0x000002caf0c55a34 relative=0x0000000000007554
+Event: 85.188 Thread 0x000002cae03c2350 Uncommon trap: reason=class_check action=maybe_recompile pc=0x000002caf0c55a34 method=com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(Lcom/kms/katalon/core/webui/model/FindElementParams;)Lorg/openqa/selenium/WebElement; @ 65 c2
+Event: 85.188 Thread 0x000002cae03c2350 DEOPT PACKING pc=0x000002caf0c55a34 sp=0x000000f5008fb8e0
+Event: 85.188 Thread 0x000002cae03c2350 DEOPT UNPACKING pc=0x000002caeffd4422 sp=0x000000f5008fb7f8 mode 2
+Event: 86.086 Thread 0x000002cae03c2350 Uncommon trap: trap_request=0xffffffde fr.pc=0x000002caf0c55a34 relative=0x0000000000007554
+Event: 86.086 Thread 0x000002cae03c2350 Uncommon trap: reason=class_check action=maybe_recompile pc=0x000002caf0c55a34 method=com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(Lcom/kms/katalon/core/webui/model/FindElementParams;)Lorg/openqa/selenium/WebElement; @ 65 c2
+Event: 86.086 Thread 0x000002cae03c2350 DEOPT PACKING pc=0x000002caf0c55a34 sp=0x000000f5008fbac0
+Event: 86.086 Thread 0x000002cae03c2350 DEOPT UNPACKING pc=0x000002caeffd4422 sp=0x000000f5008fb9d8 mode 2
+Event: 86.272 Thread 0x000002cae03c2350 Uncommon trap: trap_request=0xfffffff4 fr.pc=0x000002caf0a88634 relative=0x0000000000000234
+Event: 86.272 Thread 0x000002cae03c2350 Uncommon trap: reason=null_check action=make_not_entrant pc=0x000002caf0a88634 method=com.google.gson.internal.Excluder.excludeClass(Ljava/lang/Class;Z)Z @ 61 c2
+Event: 86.272 Thread 0x000002cae03c2350 DEOPT PACKING pc=0x000002caf0a88634 sp=0x000000f5008fb5c0
+Event: 86.272 Thread 0x000002cae03c2350 DEOPT UNPACKING pc=0x000002caeffd4422 sp=0x000000f5008fb548 mode 2
+Event: 86.287 Thread 0x000002cae03c2350 Uncommon trap: trap_request=0xffffffde fr.pc=0x000002caf0c55a34 relative=0x0000000000007554
+Event: 86.287 Thread 0x000002cae03c2350 Uncommon trap: reason=class_check action=maybe_recompile pc=0x000002caf0c55a34 method=com.kms.katalon.core.webui.model.WebUiElementFinder.findElement(Lcom/kms/katalon/core/webui/model/FindElementParams;)Lorg/openqa/selenium/WebElement; @ 65 c2
+Event: 86.287 Thread 0x000002cae03c2350 DEOPT PACKING pc=0x000002caf0c55a34 sp=0x000000f5008fbac0
+Event: 86.287 Thread 0x000002cae03c2350 DEOPT UNPACKING pc=0x000002caeffd4422 sp=0x000000f5008fb9d8 mode 2
+Event: 86.438 Thread 0x000002cae03c2350 Uncommon trap: trap_request=0xfffffff4 fr.pc=0x000002caf0559218 relative=0x0000000000000298
+Event: 86.438 Thread 0x000002cae03c2350 Uncommon trap: reason=null_check action=make_not_entrant pc=0x000002caf0559218 method=com.google.gson.internal.reflect.ReflectionHelper.isStatic(Ljava/lang/Class;)Z @ 1 c2
+Event: 86.438 Thread 0x000002cae03c2350 DEOPT PACKING pc=0x000002caf0559218 sp=0x000000f5008fbfe0
+Event: 86.438 Thread 0x000002cae03c2350 DEOPT UNPACKING pc=0x000002caeffd4422 sp=0x000000f5008fbed0 mode 2
+
+Classes loaded (20 events):
+Event: 55.072 Loading class java/lang/invoke/WrongMethodTypeException
+Event: 55.072 Loading class java/lang/invoke/WrongMethodTypeException done
+Event: 55.174 Loading class sun/misc/SharedSecrets
+Event: 55.174 Loading class sun/misc/SharedSecrets done
+Event: 55.174 Loading class java/lang/Throwable$WrappedPrintWriter
+Event: 55.174 Loading class java/lang/Throwable$PrintStreamOrWriter
+Event: 55.174 Loading class java/lang/Throwable$PrintStreamOrWriter done
+Event: 55.174 Loading class java/lang/Throwable$WrappedPrintWriter done
+Event: 55.175 Loading class java/util/concurrent/ConcurrentHashMap$EntrySpliterator
+Event: 55.175 Loading class java/util/concurrent/ConcurrentHashMap$EntrySpliterator done
+Event: 55.334 Loading class java/lang/Enum$ENTER
+Event: 55.334 Loading class java/lang/Enum$ENTER done
+Event: 55.337 Loading class java/lang/Object$ENTER
+Event: 55.337 Loading class java/lang/Object$ENTER done
+Event: 55.407 Loading class java/util/concurrent/CompletionException
+Event: 55.407 Loading class java/util/concurrent/CompletionException done
+Event: 56.070 Loading class sun/net/www/protocol/http/HttpURLConnection$10
+Event: 56.070 Loading class sun/net/www/protocol/http/HttpURLConnection$10 done
+Event: 72.533 Loading class jdk/internal/math/FDBigInteger
+Event: 72.534 Loading class jdk/internal/math/FDBigInteger done
+
+Classes unloaded (3 events):
+Event: 67.450 Thread 0x000002cafa43e7e0 Unloading class 0x000002ca81699800 'net/bytebuddy/renamed/java/lang/Object$ByteBuddy$lHz4pNGc'
+Event: 67.450 Thread 0x000002cafa43e7e0 Unloading class 0x000002ca81693800 'net/bytebuddy/renamed/java/lang/Object$ByteBuddy$RRmRg7oE'
+Event: 67.450 Thread 0x000002cafa43e7e0 Unloading class 0x000002ca81693000 'net/bytebuddy/renamed/java/lang/Object$ByteBuddy$bs3P2BSL'
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (20 events):
+Event: 55.392 Thread 0x000002cae03c2350 Exception <a 'java/lang/NoSuchMethodError'{0x000000008723ae30}: 'java.lang.Object java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(java.lang.Object, java.lang.Object, int, java.lang.Object, java.lang.Object)'> (0x000000008723ae30) 
+thrown [s\src\hotspot\share\interpreter\linkResolver.cpp, line 773]
+Event: 55.392 Thread 0x000002cae03c2350 Exception <a 'java/lang/NoSuchMethodError'{0x000000008723eb50}: 'java.lang.Object java.lang.invoke.Invokers$Holder.linkToTargetMethod(java.lang.Object, int, java.lang.Object, java.lang.Object, java.lang.Object)'> (0x000000008723eb50) 
+thrown [s\src\hotspot\share\interpreter\linkResolver.cpp, line 773]
+Event: 55.399 Thread 0x000002cafd3b79d0 Implicit null exception at 0x000002caf0971977 to 0x000002caf0971b00
+Event: 55.416 Thread 0x000002cafd3b7340 Exception <a 'java/lang/NoSuchMethodError'{0x00000000872f10c8}: 'java.lang.Object java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(java.lang.Object, int, java.lang.Object)'> (0x00000000872f10c8) 
+thrown [s\src\hotspot\share\interpreter\linkResolver.cpp, line 773]
+Event: 55.418 Thread 0x000002cafed5f7f0 Implicit null exception at 0x000002caf0970cee to 0x000002caf0970d5c
+Event: 55.694 Thread 0x000002cac5463820 Implicit null exception at 0x000002caf05586eb to 0x000002caf0558cd8
+Event: 56.069 Thread 0x000002cafed60510 Exception <a 'java/io/IOException'{0x0000000087195378}> (0x0000000087195378) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 520]
+Event: 56.070 Thread 0x000002cafed60510 Exception <a 'java/net/ConnectException'{0x0000000087196828}: Connection refused: getsockopt> (0x0000000087196828) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 539]
+Event: 56.073 Thread 0x000002cae03c2350 Exception <a 'java/lang/IncompatibleClassChangeError'{0x0000000087276528}: Found class java.lang.Object, but interface was expected> (0x0000000087276528) 
+thrown [s\src\hotspot\share\interpreter\linkResolver.cpp, line 840]
+Event: 56.088 Thread 0x000002cac627b620 Implicit null exception at 0x000002caf0947538 to 0x000002caf09477e0
+Event: 56.103 Thread 0x000002cafed60510 Exception <a 'java/net/ConnectException'{0x00000000871983f0}: Connection refused: getsockopt> (0x00000000871983f0) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 539]
+Event: 56.116 Thread 0x000002cafed60510 Exception <a 'java/net/ConnectException'{0x0000000087199310}: Connection refused: getsockopt> (0x0000000087199310) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 539]
+Event: 56.147 Thread 0x000002cafed60510 Exception <a 'java/net/ConnectException'{0x000000008719a230}: Connection refused: getsockopt> (0x000000008719a230) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 539]
+Event: 56.198 Thread 0x000002cac627b620 Implicit null exception at 0x000002caf0913840 to 0x000002caf0914068
+Event: 56.198 Thread 0x000002cac627b620 Implicit null exception at 0x000002caf09384a0 to 0x000002caf0938728
+Event: 56.199 Thread 0x000002cac627c9d0 Implicit null exception at 0x000002caf05911e0 to 0x000002caf0591254
+Event: 73.141 Thread 0x000002cac56c1e50 Exception <a 'java/io/IOException'{0x0000000089084768}> (0x0000000089084768) 
+thrown [s\src\hotspot\share\prims\jni.cpp, line 520]
+Event: 86.227 Thread 0x000002cae03c2350 Exception <a 'java/lang/IncompatibleClassChangeError'{0x0000000087ef16c0}: Found class java.lang.Object, but interface was expected> (0x0000000087ef16c0) 
+thrown [s\src\hotspot\share\interpreter\linkResolver.cpp, line 840]
+Event: 86.272 Thread 0x000002cae03c2350 Implicit null exception at 0x000002caf0a88476 to 0x000002caf0a88624
+Event: 86.438 Thread 0x000002cae03c2350 Implicit null exception at 0x000002caf0559003 to 0x000002caf0559206
+
+ZGC Phase Switch (0 events):
+No events
+
+VM Operations (20 events):
+Event: 79.173 Executing safepoint VM operation: Cleanup
+Event: 79.174 Executing safepoint VM operation: Cleanup done
+Event: 79.501 Executing safepoint VM operation: G1CollectForAllocation (G1 Evacuation Pause)
+Event: 79.503 Executing safepoint VM operation: G1CollectForAllocation (G1 Evacuation Pause) done
+Event: 79.613 Executing safepoint VM operation: G1PauseRemark
+Event: 79.622 Executing safepoint VM operation: G1PauseRemark done
+Event: 79.668 Executing safepoint VM operation: G1PauseCleanup
+Event: 79.669 Executing safepoint VM operation: G1PauseCleanup done
+Event: 81.685 Executing safepoint VM operation: Cleanup
+Event: 81.685 Executing safepoint VM operation: Cleanup done
+Event: 82.766 Executing safepoint VM operation: G1CollectForAllocation (G1 Evacuation Pause)
+Event: 82.769 Executing safepoint VM operation: G1CollectForAllocation (G1 Evacuation Pause) done
+Event: 83.772 Executing safepoint VM operation: Cleanup
+Event: 83.772 Executing safepoint VM operation: Cleanup done
+Event: 84.778 Executing safepoint VM operation: Cleanup
+Event: 84.778 Executing safepoint VM operation: Cleanup done
+Event: 85.793 Executing safepoint VM operation: Cleanup
+Event: 85.793 Executing safepoint VM operation: Cleanup done
+Event: 86.800 Executing safepoint VM operation: Cleanup
+Event: 86.800 Executing safepoint VM operation: Cleanup done
+
+Memory protections (0 events):
+No events
+
+Nmethod flushes (20 events):
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae95faf90
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9603490
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae962bc10
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae962c910
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae962d410
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9631e10
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9666a90
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9667390
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae966a510
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae966aa10
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9686c10
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae96e9e90
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae96ece90
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9751c10
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9755090
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9983510
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9983990
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9983e10
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9aabd90
+Event: 79.621 Thread 0x000002cafa43e7e0 flushing  nmethod 0x000002cae9d65290
+
+Events (20 events):
+Event: 56.099 Thread 0x000002cae03c2350 Thread added: 0x000002cac627c340
+Event: 56.099 Thread 0x000002cae03c2350 Thread added: 0x000002cac6279be0
+Event: 56.198 Thread 0x000002cae03c2350 Thread added: 0x000002cac627c9d0
+Event: 56.199 Thread 0x000002cac627b620 Thread added: 0x000002cac6279550
+Event: 56.200 Thread 0x000002cac627b620 Thread added: 0x000002cac627eaa0
+Event: 58.142 Thread 0x000002cae03c2350 Thread added: 0x000002cac627dd80
+Event: 58.143 Thread 0x000002cae03c2350 Thread added: 0x000002cac627d6f0
+Event: 58.148 Thread 0x000002cac627dd80 Thread added: 0x000002cac627d060
+Event: 58.155 Thread 0x000002cae03c2350 Thread added: 0x000002cac627f130
+Event: 58.155 Thread 0x000002cae03c2350 Thread added: 0x000002cac627f7c0
+Event: 58.156 Thread 0x000002cac627f130 Thread added: 0x000002cac627fe50
+Event: 58.157 Thread 0x000002cac627f130 Thread added: 0x000002cac62804e0
+Event: 58.348 Thread 0x000002cafc80a3d0 Thread added: 0x000002cafeb8ca20
+Event: 59.195 Thread 0x000002cafeb8ca20 Thread exited: 0x000002cafeb8ca20
+Event: 69.412 Thread 0x000002cafed60ba0 Thread added: 0x000002cac627e410
+Event: 71.071 Thread 0x000002cac627a900 Thread exited: 0x000002cac627a900
+Event: 72.556 Thread 0x000002cafc80a3d0 Thread added: 0x000002cafeff37c0
+Event: 72.789 Thread 0x000002cafeff37c0 Thread exited: 0x000002cafeff37c0
+Event: 73.141 Thread 0x000002cac627e410 Thread exited: 0x000002cac627e410
+Event: 83.000 Thread 0x000002cafed60ba0 Thread added: 0x000002cac627a900
+
+
+Dynamic libraries:
+0x00007ff777bd0000 - 0x00007ff777bde000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\javaw.exe
+0x00007ffffcd00000 - 0x00007ffffcf68000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffffab30000 - 0x00007ffffabfb000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffff9ef0000 - 0x00007ffffa2f1000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffffa390000 - 0x00007ffffa4dc000 	C:\Windows\System32\ucrtbase.dll
+0x00007fffdfa00000 - 0x00007fffdfa18000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\jli.dll
+0x00007ffffc1f0000 - 0x00007ffffc3c7000 	C:\Windows\System32\USER32.dll
+0x00007ffffa4f0000 - 0x00007ffffa517000 	C:\Windows\System32\win32u.dll
+0x00007ffffb410000 - 0x00007ffffb43b000 	C:\Windows\System32\GDI32.dll
+0x00007ffffa770000 - 0x00007ffffa89a000 	C:\Windows\System32\gdi32full.dll
+0x00007ffffa960000 - 0x00007ffffaa03000 	C:\Windows\System32\msvcp_win.dll
+0x00007fffdf980000 - 0x00007fffdf99e000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\VCRUNTIME140.dll
+0x00007fffe4fc0000 - 0x00007fffe5251000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.9711_none_3e07b8b0e334e825\COMCTL32.dll
+0x00007ffffcc10000 - 0x00007ffffccb9000 	C:\Windows\System32\msvcrt.dll
+0x00007ffffc1a0000 - 0x00007ffffc1d1000 	C:\Windows\System32\IMM32.DLL
+0x00007ffff4ad0000 - 0x00007ffff4adc000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\vcruntime140_1.dll
+0x00007fffdf8f0000 - 0x00007fffdf97d000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\msvcp140.dll
+0x00007fff5a210000 - 0x00007fff5afb2000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\server\jvm.dll
+0x00007ffffadb0000 - 0x00007ffffae6c000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffffb940000 - 0x00007ffffb9e8000 	C:\Windows\System32\sechost.dll
+0x00007ffffc480000 - 0x00007ffffc598000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffffaaa0000 - 0x00007ffffab21000 	C:\Windows\System32\WS2_32.dll
+0x00007ffff9d60000 - 0x00007ffff9dbe000 	C:\Windows\SYSTEM32\POWRPROF.dll
+0x00007ffff6e20000 - 0x00007ffff6e57000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffff2710000 - 0x00007ffff271b000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffff9d40000 - 0x00007ffff9d55000 	C:\Windows\SYSTEM32\UMPDC.dll
+0x00007ffff8b50000 - 0x00007ffff8b6b000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007ffff4a70000 - 0x00007ffff4a7a000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\jimage.dll
+0x00007fff99380000 - 0x00007fff995cc000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ffffae80000 - 0x00007ffffb20b000 	C:\Windows\System32\combase.dll
+0x00007ffffb440000 - 0x00007ffffb519000 	C:\Windows\System32\OLEAUT32.dll
+0x00007fffe2240000 - 0x00007fffe227b000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ffffa520000 - 0x00007ffffa5cc000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffff3d80000 - 0x00007ffff3da0000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\java.dll
+0x00007ffffb9f0000 - 0x00007ffffc18c000 	C:\Windows\System32\SHELL32.dll
+0x00007ffff7910000 - 0x00007ffff81be000 	C:\Windows\SYSTEM32\windows.storage.dll
+0x00007ffffb780000 - 0x00007ffffb879000 	C:\Windows\System32\SHCORE.dll
+0x00007ffffb710000 - 0x00007ffffb776000 	C:\Windows\System32\shlwapi.dll
+0x00007ffff9e00000 - 0x00007ffff9e29000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007fffe5b20000 - 0x00007fffe5bf7000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\jsvml.dll
+0x00007ffff4a60000 - 0x00007ffff4a70000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\net.dll
+0x00007ffff1bf0000 - 0x00007ffff1d1a000 	C:\Windows\SYSTEM32\WINHTTP.dll
+0x00007ffff90f0000 - 0x00007ffff915c000 	C:\Windows\system32\mswsock.dll
+0x00007ffff37a0000 - 0x00007ffff37b6000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\nio.dll
+0x00007ffff3780000 - 0x00007ffff3798000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\zip.dll
+0x00007ffff3770000 - 0x00007ffff3780000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\verify.dll
+0x00007ffff3760000 - 0x00007ffff376e000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\sunmscapi.dll
+0x00007ffffa5e0000 - 0x00007ffffa75f000 	C:\Windows\System32\CRYPT32.dll
+0x00007ffff9580000 - 0x00007ffff95b0000 	C:\Windows\SYSTEM32\ncrypt.dll
+0x00007ffff9530000 - 0x00007ffff956f000 	C:\Windows\SYSTEM32\NTASN1.dll
+0x00007ffff95c0000 - 0x00007ffff95db000 	C:\Windows\SYSTEM32\CRYPTSP.dll
+0x00007ffff8ab0000 - 0x00007ffff8ae9000 	C:\Windows\system32\rsaenh.dll
+0x00007ffff91a0000 - 0x00007ffff91d4000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ffff9dd0000 - 0x00007ffff9dfa000 	C:\Windows\SYSTEM32\bcrypt.dll
+0x00007ffff9350000 - 0x00007ffff935c000 	C:\Windows\SYSTEM32\CRYPTBASE.dll
+0x00007ffff8500000 - 0x00007ffff8533000 	C:\Windows\SYSTEM32\IPHLPAPI.DLL
+0x00007ffffb600000 - 0x00007ffffb60a000 	C:\Windows\System32\NSI.dll
+0x00007fffe4f80000 - 0x00007fffe4f89000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\extnet.dll
+0x00007ffff8540000 - 0x00007ffff8698000 	C:\Windows\SYSTEM32\DNSAPI.dll
+0x00007ffff8f10000 - 0x00007ffff8f1d000 	C:\Windows\SYSTEM32\DSPARSE.dll
+0x00007ffff1140000 - 0x00007ffff114b000 	C:\Windows\System32\rasadhlp.dll
+0x00007ffff10b0000 - 0x00007ffff1136000 	C:\Windows\System32\fwpuclnt.dll
+0x00007ffff2640000 - 0x00007ffff2648000 	C:\Windows\system32\wshunix.dll
+0x00007fff541d0000 - 0x00007fff55391000 	C:\Users\betox\AppData\Local\Temp\minify-html-java-nativelib6519854440621770993win-x64.nativelib
+0x00007fffdeb90000 - 0x00007fffded1f000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\awt.dll
+0x00007ffff6ec0000 - 0x00007ffff6f5f000 	C:\Windows\SYSTEM32\apphelp.dll
+0x00007ffff7230000 - 0x00007ffff725e000 	C:\Windows\system32\DWMAPI.DLL
+0x00007ffff6fa0000 - 0x00007ffff7047000 	C:\Windows\system32\uxtheme.dll
+0x00007fffdfa90000 - 0x00007fffdfabe000 	C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\javajpeg.dll
+0x00007ffffb2a0000 - 0x00007ffffb3fc000 	C:\Windows\System32\MSCTF.dll
+0x00007ffffac00000 - 0x00007ffffad9a000 	C:\Windows\System32\ole32.dll
+0x00007ffff8c80000 - 0x00007ffff8cb6000 	C:\Windows\SYSTEM32\ntmarta.dll
+
+JVMTI agents: none
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.9711_none_3e07b8b0e334e825;C:\Users\betox\.katalon\packages\KS-11.7.0\jre\bin\server;C:\Users\betox\AppData\Local\Temp
+
+VM Arguments:
+jvm_args: -Dgroovy.home=C:\Users\betox/.groovy -Djava.system.class.loader=groovy.lang.GroovyClassLoader -Xmx2048m -Dfile.encoding=UTF-8 -Dsun.java2d.metal=false -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+java_command: org.codehaus.groovy.tools.GroovyStarter --classpath C:\Users\betox\git\sonrisa-perfecta-katalon\bin\keyword;C:\Users\betox\git\sonrisa-perfecta-katalon\Keywords;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\listener;C:\Users\betox\git\sonrisa-perfecta-katalon\Test Listeners;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\lib;C:\Users\betox\git\sonrisa-perfecta-katalon\Libs;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\groovy;C:\Users\betox\git\sonrisa-perfecta-katalon\Include\scripts\groovy;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\browsermob-core-2.1.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\dnsjava-3.6.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\groovy-3.0.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jackson-coreutils-2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jackson-coreutils-equivalence-1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\javax.servlet-api_3.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jna-5.18.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\json-schema-core-1.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\json-schema-validator-2.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jzlib-1.1.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\katalon-image-recognition-1.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\littleproxy-1.1.0-beta-bmp-17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mitm-2.1.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mockito-core-5.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.
+java_class_path (initial): C:\Users\betox\git\sonrisa-perfecta-katalon\bin\keyword;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\listener;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\lib;C:\Users\betox\git\sonrisa-perfecta-katalon\bin\groovy;C:\Users\betox\git\sonrisa-perfecta-katalon\bin;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\browsermob-core-2.1.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\dnsjava-3.6.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\groovy-3.0.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jackson-coreutils-2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jackson-coreutils-equivalence-1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\javax.servlet-api_3.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jna-5.18.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\json-schema-core-1.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\json-schema-validator-2.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\jzlib-1.1.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\katalon-image-recognition-1.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\littleproxy-1.1.0-beta-bmp-17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mitm-2.1.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mockito-core-5.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\mockito-inline-5.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\objenesis-3.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\selenium-shutterbug-1.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\swagger-parser-1.0.67-fat.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\configuration\resources\lib\uri-template-0.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.sf.supercsv.super-csv_2.4.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.lang3_3.20.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.gson_2.14.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.jsoup_1.23.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.dbutils_1.6.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.oracle.database.jdbc.ojdbc11_21.18.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.postgresql.jdbc_42.7.11.jar;c:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.osgi_3.24.300.v20260721-1251.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.constant_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.persistence.eclipselink_2.7.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.selenium-standalone_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\atu.testrecorder.screen-recorder_2.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.guava_33.7.1.jre.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.util_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.httpclient_4.5.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.httpcore_4.4.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.httpmime_4.5.13.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.lang_2.6.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.greenrobot.eventbus_3.1.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.bytebuddy.byte-buddy_1.18.11.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.junit_4.13.2.v20230809-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.core.jackson-databind_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.core.jackson-core_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.core.jackson-annotations_2.22.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.datatype.jackson-datatype-jdk8_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\slf4j.api_2.0.18.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.netlightbody_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.poi_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-text_1.10.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.microsoft.sqlserver.mssql-jdbc_12.6.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\javassist_3.30.2.GA.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\graphql-java_22.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.glassfish.jaxb.runtime_2.3.6.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.glassfish.jaxb.txw2_2.3.6.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.dom4j_2.1.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.groovy-extended_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.sun.activation.javax.activation_1.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.xml.bind-api_4.0.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jface_3.40.0.v20260710-0650.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.logging_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\json_20240303.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\assertj-core_3.27.7.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.networknt.json-schema-validator_2.0.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.network.apache_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.network.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\java-dataloader_3.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.collections_3.2.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-collections4_4.5.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-beanutils_1.11.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.report.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-api_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-remote-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-http_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\ch.qos.logback.classic_1.5.19.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\ch.qos.logback.core_1.5.19.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\log4j.over.slf4j_1.7.36.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.contexts_1.13.300.v20260605-0605.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.github.oshi.oshi-core_6.9.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.sun.jna.platform_5.19.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\in.wilsonl.minifyhtml.minify-html_0.18.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.di_1.9.900.v20260731-1431.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.inject.jakarta.inject-api_2.0.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.poi.poi_5.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.poi.poi-ooxml_5.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.poi.poi-ooxml-full_5.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.math3_3.6.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-io_2.22.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-codec_1.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.logging.log4j.api_2.26.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.logging.log4j.to.slf4j_2.26.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-compress_1.28.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.zaxxer.SparseBitSet_1.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.xmlbeans.xmlbeans_5.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.annotation-api_2.1.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.genai.google-genai_1.59.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.osgi.service.event_1.4.1.202109301733.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.services_2.5.400.v20260430-1313.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.settings_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-devtools-v153_4.49.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.logging_1.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.hamcrest.core_1.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-chrome-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-chromium-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-edge-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-firefox-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-safari-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-ie-driver_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-manager_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-json_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.appium_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-os_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.appium.java-client_10.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.equinox.security_1.4.700.v20250622-1644.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jul.to.slf4j_2.0.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.equinox.common_3.21.0.v20260604-1221.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.platform.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.common_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.session.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.mobile.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.tracking.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.platform_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.core.di.annotations_1.8.500.v20260307-0017.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.entity_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.controller_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.composer.testops_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.application_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.gherkin_36.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution.webui_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.webui_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.mobile_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.tracking_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.equinox.registry_3.12.600.v20250906-0651.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\oauth2-oidc-sdk_11.29.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\dev.failsafe_3.3.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.datatype.jackson-datatype-jsr310_2.18.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.minidev.json-smart_2.5.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.selfhealing.execution_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.ai.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.ai_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.compare.core_3.8.900.v20260731-0809.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.preferences_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.integration.analytics_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.platform_1.0.23.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.api.grpc.proto-google-common-protos_2.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.dal_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.dal.file_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.e4.ui.di_1.5.700.v20250917-0901.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.webservice_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.groovy_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\reactive-streams_1.0.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.projectreactor.reactor-core_3.7.0.RELEASE.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.server_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.util_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.ee10.servlet_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.bedrockruntime_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.sdk-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.aws-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.regions_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.identity-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.auth_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-auth-aws_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-auth_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-auth-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.http-client-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.apache5-client_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.protocol-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.aws-json-protocol_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.json-utils_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.third-party-jackson-core_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.checksums_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.checksums-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.utils_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.retries_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.retries-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.profiles_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.endpoints-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.metrics-spi_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jetty.io_12.1.12.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.console_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.seleniumhq.selenium.selenium-support_4.46.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.modelcontextprotocol.sdk.mcp-core_1.1.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.modelcontextprotocol.sdk.mcp-json-jackson2_1.1.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.execution.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.servlet-api_6.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.sf.jopt-simple.jopt-simple_5.0.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.capability.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.execution_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.execution.mobile_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.windows_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.project.core_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.openai_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.awsbedrock_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.proxyvole_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.search.core_3.16.700.v20260505-0615.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.jetbrains.kotlin.kotlin-stdlib_1.8.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.jetbrains.kotlin.kotlin-reflect_1.8.10.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.module.jackson-module-kotlin_2.18.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.squareup.okio_3.6.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.openai.openai-java-core_4.38.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.openai.openai-java-client-okhttp_4.38.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.squareup.okhttp3.okhttp_4.12.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.client5.httpclient5_5.6.4.v20260809-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.core5.httpcore5_5.4.3.v20260625-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.httpcomponents.core5.httpcore5-h2_5.4.3.v20260625-1000.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.eventstream.eventstream_1.0.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.execution.application_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.debug.core_3.24.0.v20260714-0955.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\net.lingala.zip4j_2.11.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.email_1.5.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\javax.mail-api_1.6.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jdt.launching_3.24.300.v20260609-0435.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.custom.improvement_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.session_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.freemarker.freemarker_2.3.35.stable.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.eclipse.jface.text_3.31.100.v20260814-0956.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.vendors.jasper_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\bcprov_1.85.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.nimbusds.nimbus-jose-jwt_10.4.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.bidib.com.github.markusbernhardt.proxy-vole_1.1.7.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-configuration2_2.12.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\delight-rhino-sandbox_0.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.mozilla.rhino-engine_1.7.15.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.webui.keyword_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.katalon.mobile.keyword_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.text_1.15.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.apache.commons.commons-validator_1.7.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.xmlunit.xmlunit-core_2.10.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.android.tools.build.bundletool_1.18.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.android.tools.build.aapt2-proto_7.3.0.alpha07-8248216.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.protobuf.protobuf-java_3.22.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.protobuf.protobuf-java-util_3.22.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.dagger.dagger_2.28.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\javax.inject.javax.inject_1.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.google.guava.failureaccess_1.0.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.cucumber_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.ci-environment_12.0.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-core_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumberexpressions_18.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-gherkin_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-gherkin-messages_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-java_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-json-formatter_0.3.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-junit_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.cucumber-plugin_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.datatable_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.docstring_7.34.9.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.html-formatter_22.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.junit-xml-formatter_0.11.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.pretty-formatter_2.4.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.messages_30.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.messages-ndjson_0.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.query_14.7.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.cucumber.tag-expressions_8.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.module.jackson-module-parameter-names_2.22.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\wsdl4j_1.6.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.xml.ws-api_2.3.3.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\jakarta.xml.soap-api_1.4.2.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.atlassian.oai.swagger-request-validator-core_2.38.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.compat-spec-parser_1.0.67.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.core.v3.swagger-annotations_2.2.31.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.core.v3.swagger-core_2.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.core.v3.swagger-models_2.2.14.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser-core_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser-v2-converter_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.github.java-json-tools.btf_1.3.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.fasterxml.jackson.dataformat.jackson-dataformat-yaml_2.21.4.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.yaml.snakeyaml_2.5.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.github.java-json-tools.msg-simple_1.2.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\joda-time_2.10.5.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.googlecode.libphonenumber_8.11.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser.v3.swagger-parser-v3_2.1.16.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.swagger.parser_1.0.67.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.narupley.not-going-to-be-commons-ssl_0.3.20.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.common_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.json-path_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.json-schema-validator_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\io.rest-assured.xml-path_4.5.1.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.hamcrest_2.1.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\software.amazon.awssdk.annotations_2.46.17.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.llm_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.kms.katalon.core.testng_1.0.0.202610270759.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.testng_7.8.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\com.beust.jcommander_1.82.0.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.codehaus.groovy_3.0.25.v202609301323-e2609\lib\groovy-3.0.25-indy.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.codehaus.groovy_3.0.25.v202609301323-e2609\lib\groovy-test-3.0.25-indy.jar;C:\Users\betox\.katalon\packages\KS-11.7.0\plugins\org.codehaus.groovy_3.0.25.v202609301323-e2609\lib\ivy-2.5.3.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 1                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 4                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 132120576                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 2147483648                                {product} {command line}
+   size_t MaxNewSize                               = 1287651328                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 8388608                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5832780                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122912730                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122912730                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool ShowCodeDetailsInExceptionMessages       = true                                   {manageable} {command line}
+   size_t SoftMaxHeapSize                          = 2147483648                             {manageable} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags foldmultilines=false
+ #1: stderr all=off uptime,level,tags foldmultilines=false
+
+Release file:
+IMPLEMENTOR="Eclipse Adoptium" 
+IMPLEMENTOR_VERSION="Temurin-21.0.12+8" 
+JAVA_RUNTIME_VERSION="21.0.12+8-LTS" 
+JAVA_VERSION="21.0.12" 
+JAVA_VERSION_DATE="2026-07-21" 
+LIBC="default" 
+MODULES="java.base java.compiler java.datatransfer java.xml java.prefs java.desktop java.instrument java.logging java.management java.security.sasl java.naming java.rmi java.management.rmi java.net.http java.scripting java.security.jgss java.transaction.xa java.sql java.sql.rowset java.xml.crypto java.se java.smartcardio jdk.accessibility jdk.internal.jvmstat jdk.attach jdk.charsets jdk.internal.opt jdk.zipfs jdk.compiler jdk.crypto.ec jdk.crypto.cryptoki jdk.crypto.mscapi jdk.dynalink jdk.internal.ed jdk.editpad jdk.hotspot.agent jdk.httpserver jdk.incubator.vector jdk.internal.le jdk.internal.vm.ci jdk.internal.vm.compiler jdk.internal.vm.compiler.management jdk.jartool jdk.javadoc jdk.jcmd jdk.management jdk.management.agent jdk.jconsole jdk.jdeps jdk.jdwp.agent jdk.jdi jdk.jfr jdk.jlink jdk.jpackage jdk.jshell jdk.jsobject jdk.jstatd jdk.localedata jdk.management.jfr jdk.naming.dns jdk.naming.rmi jdk.net jdk.nio.mapmode jdk.random jdk.sctp jdk.security.auth jdk.security.jgss jdk.unsupported jdk.unsupported.desktop jdk.xml.dom" 
+OS_ARCH="x86_64" 
+OS_NAME="Windows" 
+SOURCE=".:git:04806bcb1d50" 
+BUILD_SOURCE="git:e6ba7dec3d07654074559310376a3ae89da5f4ac"
+BUILD_SOURCE_REPO="https://github.com/adoptium/temurin-build.git"
+SOURCE_REPO="https://github.com/adoptium/jdk21u.git"
+FULL_VERSION="21.0.12+8-LTS"
+SEMANTIC_VERSION="21.0.12+8"
+BUILD_INFO="OS: Windows Server 2022 Version: 10.0"
+JVM_VARIANT="Hotspot"
+JVM_VERSION="21.0.12+8-LTS"
+IMAGE_TYPE="JDK"
+
+Environment Variables:
+PATH=C:/Users/betox/.katalon/packages/KS-11.7.0/jre/bin/server;C:/Users/betox/.katalon/packages/KS-11.7.0/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\betox\AppData\Local\Microsoft\WindowsApps;;C:\Users\betox\.katalon\packages\KS-11.7.0;
+USERNAME=betox
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
+TMP=C:\Users\betox\AppData\Local\Temp
+TEMP=C:\Users\betox\AppData\Local\Temp
+
+
+
+
+Periodic native trim disabled
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 11 , 64 bit Build 26100 (10.0.26100.9711)
+OS uptime: 0 days 1:53 hours
+Hyper-V role detected
+
+CPU: total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 142 stepping 11 microcode 0xde, cx8, cmov, fxsr, ht, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, erms, clmul, bmi1, bmi2, adx, fma, vzeroupper, clflush, clflushopt, hv, rdtscp, f16c
+Processor Information for the first 4 processors :
+  Max Mhz: 2304, Current Mhz: 2103, Mhz Limit: 2096
+
+Memory: 4k page, system-wide physical 8040M (1645M free)
+TotalPageFile size 8040M (AvailPageFile size 8M)
+current process WorkingSet (physical memory assigned to process): 378M, peak: 397M
+current process commit charge ("private bytes"): 406M, peak: 424M
+
+vm_info: OpenJDK 64-Bit Server VM (21.0.12+8-LTS) for windows-amd64 JRE (21.0.12+8-LTS), built on 2026-07-21T00:00:00Z by "admin" with MS VC++ 17.12 (VS2022)
+
+END.

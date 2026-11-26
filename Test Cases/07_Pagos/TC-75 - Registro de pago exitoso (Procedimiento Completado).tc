@@ -3,14 +3,21 @@
    <description></description>
    <name>TC-75 - Registro de pago exitoso (Procedimiento Completado)</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Isais Ramirez Norberto Angel</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>778d5db6-7324-45bb-9c33-5477ec2f3ae4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f7f7add2-bbdb-4392-99c1-1eb0d31112a4</testCaseGuid>
-   <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
-   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid></testSuiteGuid>
 </TestCaseEntity>

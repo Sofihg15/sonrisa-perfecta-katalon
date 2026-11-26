@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c5</name>
+   <tag></tag>
+   <elementGuidId>ce11a715-5410-480c-b0d0-734129c0e094</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.q-card</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Sonrisa perfectaIniciar SesiónNombre de usuarioContraseñavisibility_offEntrar&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>df43cf8a-11b0-42a9-9350-2dbc08f4f86c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-card nicegui-card w-80 p-8 shadow-2xl</value>
+      <webElementGuid>9e3cf5a0-cc6e-4438-97de-6abbd2ab0621</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c5</value>
+      <webElementGuid>c27e38ac-79bf-4499-be2f-288d09b5e88a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sonrisa perfectaIniciar SesiónNombre de usuarioContraseñavisibility_offEntrar</value>
+      <webElementGuid>37260949-9a7d-43ea-979e-767591f513e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7b5cde4e6edee7d741efbaca8d8d3581</value>
+      <webElementGuid>24a1cff5-9b59-4264-9051-2856e0a950f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      <webElementGuid>0fe32567-7c0f-4b2c-8137-4445049512bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      <webElementGuid>03c49164-5eba-4430-828c-a01b6b335132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c5' and (text() = 'Sonrisa perfectaIniciar SesiónNombre de usuarioContraseñavisibility_offEntrar' or . = 'Sonrisa perfectaIniciar SesiónNombre de usuarioContraseñavisibility_offEntrar')]</value>
+      <webElementGuid>fba43fb2-80be-4cc5-b353-9248a9b553b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

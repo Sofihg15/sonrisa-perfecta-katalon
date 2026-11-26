@@ -1,4 +1,4 @@
-/*
+ /*
  * Sonrisa Perfecta - Ciclo de Prueba 1
  * TC-15 - Edición fallida: Borrar un campo obligatorio.
  * Modulo: CU-USUARIOS (Gestión de Usuarios) | Criticidad: Alta | Perfil: Admin
@@ -26,14 +26,46 @@
  *    segun el resultado esperado de arriba.
  * 3. Los valores de entrada de la matriz estan solo como referencia en
  *    este comentario; no se ejecutan como codigo.
- */
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+ */ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.llm.keyword.LlmKeywords as LLM
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import org.openqa.selenium.Keys as Keys
+import internal.GlobalVariable as GlobalVariable
 
-// TODO: grabar los pasos con Web Recorder y completar el script
-WebUI.openBrowser('')
+WebUI.openBrowser(null)
+
 WebUI.navigateToUrl('https://sistemapruebas.yaelrdf.fun/login')
-// Ejemplo:
-// WebUI.setText(findTestObject('Object Repository/Login/input_usuario'), 'usuario_prueba')
-// WebUI.verifyElementPresent(findTestObject('Object Repository/VistaGeneral/titulo'), 10)
-WebUI.closeBrowser()
+
+WebUI.setText(findTestObject('input_Nombre de usuario'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('input_Contraseavisibility_off'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.sendKeys(findTestObject('input_Contraseavisibility_off'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('button_c45'))
+
+WebUI.click(findTestObject('i_edit'))
+
+WebUI.setText(findTestObject('input_Nombre Real'), '')
+
+WebUI.sendKeys(findTestObject('input_Nombre Real'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('input_Nombre Real'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.click(findTestObject('span_Guardar'))
+
+WebUI.click(findTestObject('div_Nombre de usuario y nombre real son obligato'))
+

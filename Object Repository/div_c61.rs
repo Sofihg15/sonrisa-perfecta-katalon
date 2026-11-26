@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c61</name>
+   <tag></tag>
+   <elementGuidId>3c82247d-a560-4986-97a9-27c81977afa6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.q-card.nicegui-card.text-center:nth-child(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (position() = 3)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Saldo Pendiente$700.00&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>28a78da0-6974-4fe8-9a73-91abe66855a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-card nicegui-card text-center</value>
+      <webElementGuid>d2518f83-71dd-4c01-badb-c1ccca7914e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c61</value>
+      <webElementGuid>75f4499d-aa46-4ee9-8762-cddeac533045</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saldo Pendiente$700.00</value>
+      <webElementGuid>f211e868-b932-4dfd-b17e-3f52f04b5980</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-37b10be55d58dd58434af6293ca664e5</value>
+      <webElementGuid>d9c7d311-1122-4d34-902c-4936a05cdc3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (position() = 3)]</value>
+      <webElementGuid>270a2104-dbce-4cce-accc-e2504dd1d5a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ') and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-card ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (position() = 3)]</value>
+      <webElementGuid>58e02ed8-3160-4aa0-9550-9eb261deff60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c61' and (text() = 'Saldo Pendiente$700.00' or . = 'Saldo Pendiente$700.00')]</value>
+      <webElementGuid>c791d18a-8356-49f8-b286-b397fe3e543f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

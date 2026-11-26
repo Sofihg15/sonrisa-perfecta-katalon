@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_f_1af063a3-de9f-44c7-8301-a5c0d2475022_1</name>
+   <tag></tag>
+   <elementGuidId>ac18ff0e-8447-478f-ad5a-ade4071eb5fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.q-item:nth-child(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 2)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Consulta - Pendiente: $500.00&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a1fad22f-e6d6-405c-8cd4-c710023767fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-manual-focusable</value>
+      <webElementGuid>94fdc9e4-d9a1-46a4-bc76-7c67707c9b01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>0551c9da-795f-4fb1-8bd0-de3c77f15195</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>38e8a244-41b0-4add-a1b7-3c31e48f99aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-selected</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>8faca7a3-cd0c-45bc-a2ca-1780b1329919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>f_1af063a3-de9f-44c7-8301-a5c0d2475022_1</value>
+      <webElementGuid>8e69f514-88a8-4f29-9ea3-9e00a6270a1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Consulta - Pendiente: $500.00</value>
+      <webElementGuid>2d60afc0-ab4b-4bdb-9c9f-a105e286371e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d1fca776dcb211295fd8de59878adb66</value>
+      <webElementGuid>43a47083-aaa9-455d-bd9b-2868ba2bf055</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 2)]</value>
+      <webElementGuid>bfe29995-e385-40e2-8e24-7e65c3fe4342</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-item ') and (position() = 2)]</value>
+      <webElementGuid>b3d008e3-caca-4c90-925e-196d12eea589</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'f_1af063a3-de9f-44c7-8301-a5c0d2475022_1' and (text() = 'Consulta - Pendiente: $500.00' or . = 'Consulta - Pendiente: $500.00')]</value>
+      <webElementGuid>31107148-c19a-4f4c-8c08-9e3d151665dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
