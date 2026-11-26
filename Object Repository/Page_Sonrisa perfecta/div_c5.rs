@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c5</name>
+   <tag></tag>
+   <elementGuidId>b451fb4f-d21e-4f4e-aafb-66a1878578dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-drawer ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.nicegui-drawer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Sonrisa perfectapersonAdministradorSuper UsuariologoutdashboardVista generaleven&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f922dbca-a995-49c6-8243-5a143587b1a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c5</value>
+      <webElementGuid>5f703e12-629a-481d-a639-80216b1da98d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-drawer__content fit scroll nicegui-drawer bg-[#9daaf2] p-0 text-white overflow-y-auto overflow-x-hidden</value>
+      <webElementGuid>cc70f74a-aaef-4993-a827-30d4f68ea524</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loopback</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>85efe7ae-a1e7-407a-b601-7021b30b2bcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sonrisa perfectapersonAdministradorSuper UsuariologoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientesdrawOdontogramaspaymentsAdeudosmedical_servicesGestion de Medicosmanage_accountsUsuariosv1.1.0</value>
+      <webElementGuid>c44bcb91-3e04-4d3d-8152-5f7a7839b49c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bffa606b8a731ab93b53d3ba84c52b10</value>
+      <webElementGuid>e395976c-479f-4857-8992-b2d948d38450</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-drawer ')]</value>
+      <webElementGuid>e5e1f743-5985-4e87-94c8-24dc4b931290</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nicegui-drawer ')]</value>
+      <webElementGuid>d7d0d439-435b-437a-b047-90c3db6984fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c5' and (text() = 'Sonrisa perfectapersonAdministradorSuper UsuariologoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientesdrawOdontogramaspaymentsAdeudosmedical_servicesGestion de Medicosmanage_accountsUsuariosv1.1.0' or . = 'Sonrisa perfectapersonAdministradorSuper UsuariologoutdashboardVista generaleventGestion de citaspeopleGestion de pacientesfolder_sharedExpedientesdrawOdontogramaspaymentsAdeudosmedical_servicesGestion de Medicosmanage_accountsUsuariosv1.1.0')]</value>
+      <webElementGuid>b8698495-8631-43e3-88c1-5cb8e7719fad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
