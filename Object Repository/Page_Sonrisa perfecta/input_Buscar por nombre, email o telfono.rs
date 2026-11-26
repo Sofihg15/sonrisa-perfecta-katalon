@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Buscar por nombre, email o telfono</name>
+   <tag></tag>
+   <elementGuidId>c24d2ed0-0b86-41aa-abf8-cb9a7e2442ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@name = 'c57']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;c57&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'c57' and @id = 'c57' and @placeholder = 'Buscar por nombre, email o teléfono...' and @type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Buscar por nombre, email o teléfono...&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>96d7b58a-a617-469c-ae1c-a9d417b948fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-field__native q-placeholder</value>
+      <webElementGuid>faf0d33e-4c9c-459a-80da-738678879518</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>7f5e5093-3940-4cd6-a4b9-69f1fa1ce37a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>c57</value>
+      <webElementGuid>de3c6337-337b-4f90-b365-870cff6a3c2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c57</value>
+      <webElementGuid>3ce550ac-0e75-44f1-b3e3-deda0f9b8c9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loopback</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>c4038280-753a-48c3-9b64-53415d43dbce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Buscar por nombre, email o teléfono...</value>
+      <webElementGuid>252bce12-5b01-4412-b293-bd928d550218</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>list</name>
+      <type>Main</type>
+      <value>undefined-datalist</value>
+      <webElementGuid>4829ea38-fb38-4dec-9ef3-9ea2849703e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>99ed0792-46fc-4915-aeb3-b25ed47b5110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-73981b2b5ab7aefcbb8a8746055ddda3</value>
+      <webElementGuid>ee079b63-e433-4cf6-828a-eff5365c5e3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = 'c57']</value>
+      <webElementGuid>1a94fc8a-cea6-4c3e-9593-bb08ae77bc4f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = 'c57']</value>
+      <webElementGuid>103dc4d5-4d89-4201-9ec9-7d8789490e8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'c57' and @id = 'c57' and @placeholder = 'Buscar por nombre, email o teléfono...' and @type = 'text']</value>
+      <webElementGuid>0ad1bdde-c477-449a-bc33-2d5b619c0879</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

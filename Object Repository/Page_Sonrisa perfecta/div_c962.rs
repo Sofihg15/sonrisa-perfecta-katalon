@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_c962</name>
+   <tag></tag>
+   <elementGuidId>a034f6d8-3258-44de-85a2-dbaf3e33171a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.q-card</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'c962' and (text() = 'Alexander HernandezEspecialidadOrtodonciaOrtodonciaTeléfonoN/AEmailalex@gmail.comediteventdelete' or . = 'Alexander HernandezEspecialidadOrtodonciaOrtodonciaTeléfonoN/AEmailalex@gmail.comediteventdelete')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#c962</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e5641b8d-e0f5-40d8-8a3f-d34bf44c8b1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-card nicegui-card w-full</value>
+      <webElementGuid>278ef06f-abb5-434f-baaa-cd65117cbd7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>c962</value>
+      <webElementGuid>3ecb8b0d-9f0c-4539-9990-6c6b42ae1e7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Alexander HernandezEspecialidadOrtodonciaOrtodonciaTeléfonoN/AEmailalex@gmail.comediteventdelete</value>
+      <webElementGuid>16283c3e-05e2-4739-b10d-495d6acd1797</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7b5cde4e6edee7d741efbaca8d8d3581</value>
+      <webElementGuid>60e900ae-400f-40f3-a714-8071cd861b06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      <webElementGuid>9d89331c-de4d-4436-81d5-bfd12edc3ece</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-card ')]</value>
+      <webElementGuid>f839e8b0-1feb-46b8-bfa0-384554a8f841</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'c962' and (text() = 'Alexander HernandezEspecialidadOrtodonciaOrtodonciaTeléfonoN/AEmailalex@gmail.comediteventdelete' or . = 'Alexander HernandezEspecialidadOrtodonciaOrtodonciaTeléfonoN/AEmailalex@gmail.comediteventdelete')]</value>
+      <webElementGuid>1d5259de-2dfe-4b3c-94f0-d96b80b7e5a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
