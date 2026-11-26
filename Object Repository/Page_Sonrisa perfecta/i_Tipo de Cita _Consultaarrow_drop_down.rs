@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>47450409-5718-487b-b99e-49bf7408942c</webElementGuid>
+      <webElementGuid>40ce4f14-b97d-4411-a79f-b4f6562af02b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-icon notranslate material-icons q-select__dropdown-icon</value>
-      <webElementGuid>ad51f94c-a0f0-4086-b051-b7f678310717</webElementGuid>
+      <webElementGuid>044132a4-1a2c-4fb2-8e4b-9341ee7b81cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>668571ae-b0d1-4b46-80e9-44765412f431</webElementGuid>
+      <webElementGuid>f92a0064-a894-47c9-a8ce-07e89ca9ffd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>arrow_drop_down</value>
-      <webElementGuid>fdfb7d8c-5890-4ab6-9dcc-e0656a30699c</webElementGuid>
+      <webElementGuid>8c2788b0-3bbb-4d10-b8a5-596c69595922</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-dbecd5403b622228b0fcccd9452e901c</value>
-      <webElementGuid>c2ce1d23-e777-4171-adde-1e960b6590d7</webElementGuid>
+      <webElementGuid>c7d37df9-a299-4b00-8f3a-08b9919cbf4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-select--without-chips ') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and contains(concat(' ', normalize-space(@class), ' '), ' material-icons ') and contains(concat(' ', normalize-space(@class), ' '), ' q-icon ') and contains(concat(' ', normalize-space(@class), ' '), ' q-select__dropdown-icon ')]</value>
-      <webElementGuid>d2f973e9-ea60-4c60-9bd3-1ab9df43ec57</webElementGuid>
+      <webElementGuid>ebe2fd82-ea0a-4f68-a99b-f4ca69a69058</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-field ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--outlined ') and contains(concat(' ', normalize-space(@class), ' '), ' q-field--labeled ') and contains(concat(' ', normalize-space(@class), ' '), ' q-select--without-chips ') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ') and contains(concat(' ', normalize-space(@class), ' '), ' material-icons ') and contains(concat(' ', normalize-space(@class), ' '), ' q-icon ') and contains(concat(' ', normalize-space(@class), ' '), ' q-select__dropdown-icon ')]</value>
-      <webElementGuid>e14ee68d-eb1c-4f92-88bf-b13a57191968</webElementGuid>
+      <webElementGuid>3772f09b-7edd-4a34-aabf-e3e94005e8a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//i[(text() = 'arrow_drop_down' or . = 'arrow_drop_down')]</value>
-      <webElementGuid>b2f086fb-fbad-4ac8-9386-3e1dfe0273ea</webElementGuid>
+      <webElementGuid>ffd83922-1452-4f21-93c2-6ea7385e06b6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

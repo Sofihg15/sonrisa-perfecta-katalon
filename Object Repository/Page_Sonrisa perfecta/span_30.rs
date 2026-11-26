@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>17c88e6e-8f8f-43b1-b4e2-2ed54070fd52</webElementGuid>
+      <webElementGuid>d8f0a61f-23bd-4607-87a4-0c6e61f56883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>30</value>
-      <webElementGuid>57b2219d-ac5a-46b4-b1ef-f827a33c2256</webElementGuid>
+      <webElementGuid>13767db9-7b8d-4dac-9957-4fd9d7bf4fd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-d8462b675c54405fb52a1c2f9e6ac429</value>
-      <webElementGuid>d1fa1bb7-0c7c-4fc9-a39a-d23470b367f7</webElementGuid>
+      <webElementGuid>ea9610cf-64e1-471c-85a6-d94283a4d42c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item--in ') and (position() = 30)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>c1eb12b8-f583-4ca2-ba9e-b26576b2ebb7</webElementGuid>
+      <webElementGuid>fe71dde2-bcc5-4908-9449-557abe75fabf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>fdea74dc-8e84-44ae-b5f6-16dfb5a90fec</webElementGuid>
+      <webElementGuid>3c8c6444-3a4f-4700-b63e-44e951c06497</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item ') and contains(concat(' ', normalize-space(@class), ' '), ' q-date__calendar-item--in ') and (position() = 30)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>7920a0ab-eea5-4655-b62b-b998fb2e69fc</webElementGuid>
+      <webElementGuid>39db5545-dc7a-4cb7-9759-715b855a33bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '30' or . = '30')]</value>
-      <webElementGuid>fe68a7dd-e8e0-4ccd-ae02-4d4e11a7be44</webElementGuid>
+      <webElementGuid>eaf44242-bd36-4437-9241-4fa0e070e296</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

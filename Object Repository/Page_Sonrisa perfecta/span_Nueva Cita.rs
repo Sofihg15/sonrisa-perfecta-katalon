@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7f3c4bfb-5d57-45f8-b306-27368a9d8c6c</webElementGuid>
+      <webElementGuid>06c9eec5-8f98-4e42-b7ee-d51f2ea658b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>block</value>
-      <webElementGuid>726ea40c-6d05-4f98-b1dc-b6d7f8c52dbf</webElementGuid>
+      <webElementGuid>50760dbe-9e2c-496e-8c44-5a8ae2287f71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Nueva Cita</value>
-      <webElementGuid>4db2f64a-1653-4f2d-8309-92d2dc7f74bc</webElementGuid>
+      <webElementGuid>2ece05b8-7aa4-444e-bdef-93fc10f300f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-e6534a44492ed490dcc2cce581e390d9</value>
-      <webElementGuid>9e5d4b4a-02ad-48fd-ae95-21b68178f885</webElementGuid>
+      <webElementGuid>22cd30d3-b6de-423e-80f5-8283c2d3ca81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' non-selectable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>27ad7f4f-eaf8-4a27-be04-82281b613b0c</webElementGuid>
+      <webElementGuid>29fb665b-b97c-4087-8b46-99dce06276b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' non-selectable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>4d55c3c7-c036-436c-8d0e-741288b31aab</webElementGuid>
+      <webElementGuid>bde60d5a-336e-4add-a9b2-0b0e7574fefe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Nueva Cita' or . = 'Nueva Cita')]</value>
-      <webElementGuid>9e1ce0a9-f92d-4954-bdf6-6b2679bd7d50</webElementGuid>
+      <webElementGuid>a4c1b880-5f17-40cb-8874-d3af79323de4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
