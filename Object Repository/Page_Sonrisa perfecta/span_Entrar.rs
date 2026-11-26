@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.q-btn__content</value>
+         <value>.block</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>dfa5c29c-ce37-47a7-b252-74611339391f</webElementGuid>
+      <webElementGuid>e62133b1-ffa3-4f3c-aef2-effa4004d059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>q-btn__content text-center col items-center q-anchor--skip justify-center row</value>
-      <webElementGuid>1ca8d5f7-69f0-45c3-908a-7e7226c91c48</webElementGuid>
+      <value>block</value>
+      <webElementGuid>1aa66c14-7274-4062-bed9-765191f49aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,31 +49,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Entrar</value>
-      <webElementGuid>90270996-dbe9-489a-b769-a34e28de0a52</webElementGuid>
+      <webElementGuid>0ef7e01e-3621-49a7-ae58-a9c9d2ab04e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-be3c04305adea6b88e8781ed2343d8e6</value>
-      <webElementGuid>22bd4284-1b01-4408-ac6b-797a7d5ce679</webElementGuid>
+      <value>md5.v1-f66cd4a22b1cc850cd9f6430816ab1c6</value>
+      <webElementGuid>5bb3bb64-294b-4539-828e-dd307c03bf4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
-      <webElementGuid>b1cf6486-23a1-4abe-9f9e-738918917fc7</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
+      <webElementGuid>8fbbce24-1e02-4548-9d2c-f389ba348ee6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
-      <webElementGuid>10ac855c-f9a7-4002-a4cf-469dc5af2626</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
+      <webElementGuid>ceadf9ee-b6b8-4fac-8642-2024a39fadd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,14 +81,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Entrar' or . = 'Entrar')]</value>
-      <webElementGuid>745a932d-e988-4fa6-aeae-1993da34163c</webElementGuid>
+      <webElementGuid>4ba856ca-706d-46f3-9ca0-cb3849f5671e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block ')]</value>
-      <webElementGuid>76152cf7-1a50-4cf8-9856-0e40d5731dba</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn__content ')]</value>
+      <webElementGuid>10ac855c-f9a7-4002-a4cf-469dc5af2626</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

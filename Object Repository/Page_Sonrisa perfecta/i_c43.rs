@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>af9539bb-3974-45bd-8685-c19b67b577f6</webElementGuid>
+      <webElementGuid>63b0295d-8f62-420f-8e1d-2aff28a74903</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-icon notranslate material-icons</value>
-      <webElementGuid>f846574f-8f5e-4812-8be6-9f9b29c26a25</webElementGuid>
+      <webElementGuid>5d492db1-aa43-4de0-8912-6861ae801448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>408a9a8b-aecf-4360-a85c-c7e2b821540c</webElementGuid>
+      <webElementGuid>241fbecb-588e-4771-b918-7318420eb883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>c43</value>
-      <webElementGuid>03bc8243-ff54-423c-a861-5eb608cb6faa</webElementGuid>
+      <webElementGuid>fe478936-cde9-4b15-89bc-d99579306210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>medical_services</value>
-      <webElementGuid>d746bbc8-afe4-483e-a206-652103ffd194</webElementGuid>
+      <webElementGuid>1a860494-4538-48ff-9b8d-a93de669c92a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-8de127006d331bbff6d14a9a93729aae</value>
-      <webElementGuid>3faa36fa-b04e-47f1-8425-12bcd876fe36</webElementGuid>
+      <webElementGuid>329fd435-ce53-4c48-9be2-08d4ad7903ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' non-selectable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--no-uppercase ') and (position() = 10)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ')]</value>
-      <webElementGuid>1f88500b-1b09-4e7b-b65f-eca31dafc32a</webElementGuid>
+      <webElementGuid>2ab034be-4043-4b15-acd5-01ca46afe16d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' q-btn ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn-item ') and contains(concat(' ', normalize-space(@class), ' '), ' non-selectable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--actionable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-focusable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-hoverable ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--rectangle ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--flat ') and contains(concat(' ', normalize-space(@class), ' '), ' q-btn--no-uppercase ') and (position() = 10)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' notranslate ')]</value>
-      <webElementGuid>5faf5d4c-74fa-487c-aa8a-fd9ba7cc08fe</webElementGuid>
+      <webElementGuid>962ae433-b7a7-49ec-95a4-267c5ae0bae7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//i[@id = 'c43' and (text() = 'medical_services' or . = 'medical_services')]</value>
-      <webElementGuid>fc74334b-ca75-4eff-a6a8-26ec3a118b47</webElementGuid>
+      <webElementGuid>ae84becb-36ae-416f-9986-bf1a3f06429c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
